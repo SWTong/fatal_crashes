@@ -1,0 +1,9 @@
+title: "Florida 2016 Fatal Crashes Analysis"
+output:
+  html_document:
+    theme: simplex
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+output_dir: "."

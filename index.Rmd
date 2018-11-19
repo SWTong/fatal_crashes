@@ -1,0 +1,65 @@
+---
+title: "Florida 2016 Fatal Crashes Analysis"
+output:
+  html_document
+---
+
+
+```{r include = FALSE}
+library("leaflet")
+library("magrittr") 
+
+#get directory path of data set
+setwd("C:\\Users\\Sharon\\Desktop\\fatal_crashes")
+
+#read csv file and store data set into variable named accident
+florida <- read.csv("florida_dataset.csv")
+
+#subset florida data set to hillsborough
+hillsb <- florida[florida$COUNTY_NAME == 'HILLSBOROUGH',]
+
+#subset florida data set to pinellas
+pinellas <- florida[florida$COUNTY_NAME == 'PINELLAS',]
+
+#subset florida data set to pasco
+pasco <- florida[florida$COUNTY_NAME == 'PASCO',]
+
+#subset florida data set to hernando
+hernando <- florida[florida$COUNTY_NAME == 'HERNANDO',]
+
+#subset florida data set to citrus
+citrus <- florida[florida$COUNTY_NAME == 'CITRUS',]
+
+#subset florida data set to manatee
+manatee <- florida[florida$COUNTY_NAME == 'MANATEE',]
+
+#subset florida data set to sarasota
+sarasota <- florida[florida$COUNTY_NAME == 'SARASOTA',]
+
+#combine counties to create the tampa bay data set
+tpabay <- rbind(hillsb, pinellas, pasco, hernando, citrus, manatee, sarasota)
+
+```
+
+```{r tpabay}
+summary(tpabay )
+
+```
+
+``` {r map_label}
+content <- paste("FATALS: ",tpabay$FATALS,
+                 "First Injury/Damage: ", tpabay$HARM_EV_NAME,
+                 "Trafficway: ",tpabay$TWAY_ID, "and ",
+                 tpabay$TWAY_ID
+                 )
+````
+
+```{r tbay_map}
+tbay_map <- leaflet(data=tpabay) %>% 
+addTiles() %>% 
+addCircleMarkers(data = tpabay, lng = ~ LONGITUD, lat = ~ LATITUDE, radius = 5, 
+                   color = ~ palette(),
+                  label = content,
+                   clusterOptions = markerClusterOptions())
+tbay_map
+```
