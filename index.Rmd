@@ -1,9 +1,16 @@
 ---
 title: "Florida 2016 Fatal Crashes Analysis"
 output:
-  html_document
+  html_document:
+    toc: true
+    toc_depth: 2
+    
 ---
+##Table of Contents
 
+##The Problem
+
+##The Data
 
 ```{r include = FALSE}
 library("leaflet")
@@ -36,23 +43,24 @@ manatee <- florida[florida$COUNTY_NAME == 'MANATEE',]
 #subset florida data set to sarasota
 sarasota <- florida[florida$COUNTY_NAME == 'SARASOTA',]
 
+polk <- florida[florida$COUNTY_NAME == 'POLK',]
+
 #combine counties to create the tampa bay data set
-tpabay <- rbind(hillsb, pinellas, pasco, hernando, citrus, manatee, sarasota)
+tpabay <- rbind(hillsb, pinellas, pasco, hernando, citrus, manatee, sarasota, polk)
 
 ```
 
+##Descriptive Statistics
 ```{r tpabay}
-summary(tpabay )
-
+str(tpabay)
 ```
 
+###Visualizations
 ``` {r map_label}
-content <- paste("FATALS: ",tpabay$FATALS,
-                 "First Injury/Damage: ", tpabay$HARM_EV_NAME,
-                 "Trafficway: ",tpabay$TWAY_ID, "and ",
-                 tpabay$TWAY_ID
-                 )
-````
+
+content <- paste("First Injury/Damage: ", tpabay$HARM_EV_NAME, "Trafficway: ", tpabay$TWAY_ID, "and ", tpabay$TWAY_ID)
+
+```
 
 ```{r tbay_map}
 tbay_map <- leaflet(data=tpabay) %>% 
@@ -63,3 +71,4 @@ addCircleMarkers(data = tpabay, lng = ~ LONGITUD, lat = ~ LATITUDE, radius = 5,
                    clusterOptions = markerClusterOptions())
 tbay_map
 ```
+
