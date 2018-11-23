@@ -1,16 +1,9 @@
 ---
 title: "Florida 2016 Fatal Crashes Analysis"
 output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    
+  html_document
 ---
-##Table of Contents
-
-##The Problem
-
-##The Data
+### *By Sharon Tong, University of South Florida - Tampa*
 
 ```{r include = FALSE}
 library("leaflet")
@@ -47,28 +40,51 @@ polk <- florida[florida$COUNTY_NAME == 'POLK',]
 
 #combine counties to create the tampa bay data set
 tpabay <- rbind(hillsb, pinellas, pasco, hernando, citrus, manatee, sarasota, polk)
+```
+
+``` {r map_label, include = FALSE}
+
+popupInfo <- paste("<b>Month: </b>", tpabay$MONTH_NAME,
+                 "<br>", "<b> Day of Week: </b>", tpabay$DAY_WEEK_NAME,
+                 "<br>", "<b> Trafficway1: </b>", tpabay$TWAY_ID,
+                 "<br>", "<b> Trafficway2: </b>", tpabay$TWAY_ID2,
+                 "<br>", "<b> County: </b>", tpabay$COUNTY_NAME,
+                 "<br>", "<b> City: </b>", tpabay$CITY_NAME
+                  )
+```
+
+```{r tpabay_map, width = 200, height =  40, include = FALSE}
+tbay_map <- leaflet(data=tpabay) %>% 
+addTiles() %>% 
+addMarkers(data = tpabay, lng = ~ LONGITUD, lat = ~ LATITUDE, 
+                  popup = popupInfo,
+                   clusterOptions = markerClusterOptions())
+```
+
+```{r}
+tbay_map
+```
+###The Problem
+
+
+###The Data
+The data I will be using can be obtained from the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). After downloading the data, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original FARS data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server and organized the data into a data warehouse to prepare for analysis. The resulting data set that R will be used to analyze is [this].
+
+Here is a preview of the data set:
+
+```{r table, include = TRUE}
+library(DT)
+#preview first 50 rows of the data set
+preview <- tpabay[1:50,]
+table <- datatable(preview, options = list(pageLength = 10,scrollX='400px'))
+table
 
 ```
 
-##Descriptive Statistics
+
+###Descriptive Statistics
 ```{r tpabay}
 str(tpabay)
 ```
 
-###Visualizations
-``` {r map_label}
-
-content <- paste("First Injury/Damage: ", tpabay$HARM_EV_NAME, "Trafficway: ", tpabay$TWAY_ID, "and ", tpabay$TWAY_ID)
-
-```
-
-```{r tbay_map}
-tbay_map <- leaflet(data=tpabay) %>% 
-addTiles() %>% 
-addCircleMarkers(data = tpabay, lng = ~ LONGITUD, lat = ~ LATITUDE, radius = 5, 
-                   color = ~ palette(),
-                  label = content,
-                   clusterOptions = markerClusterOptions())
-tbay_map
-```
 
