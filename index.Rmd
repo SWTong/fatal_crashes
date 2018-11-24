@@ -1,9 +1,9 @@
 ---
-title: "Florida 2016 Fatal Crashes Analysis"
+title: "Tampa Bay Area 2016 Fatal Crashes Analysis"
 output:
   html_document
 ---
-### *By Sharon Tong, University of South Florida - Tampa*
+#### By Sharon Tong, University of South Florida - Tampa
 
 ```{r include = FALSE}
 library("leaflet")
@@ -48,39 +48,41 @@ popupInfo <- paste("<b>Month: </b>", tpabay$MONTH_NAME,
                  "<br>", "<b> Day of Week: </b>", tpabay$DAY_WEEK_NAME,
                  "<br>", "<b> Trafficway1: </b>", tpabay$TWAY_ID,
                  "<br>", "<b> Trafficway2: </b>", tpabay$TWAY_ID2,
+                "<br>", "<b> Intersection Type: </b>", tpabay$TYP_INT_NAME,
                  "<br>", "<b> County: </b>", tpabay$COUNTY_NAME,
                  "<br>", "<b> City: </b>", tpabay$CITY_NAME
                   )
 ```
 
-```{r tpabay_map, width = 200, height =  40, include = FALSE}
-tbay_map <- leaflet(data=tpabay) %>% 
+```{r tpabay_map, include=FALSE}
+tbay_map <- leaflet(data=tpabay, width = "100%") %>% 
 addTiles() %>% 
 addMarkers(data = tpabay, lng = ~ LONGITUD, lat = ~ LATITUDE, 
                   popup = popupInfo,
                    clusterOptions = markerClusterOptions())
 ```
 
-```{r}
+```{r,echo=FALSE}
 tbay_map
 ```
-###The Problem
 
+###The Problem
+Lots of accidents happen all over the country.
 
 ###The Data
 The data I will be using can be obtained from the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). After downloading the data, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original FARS data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server and organized the data into a data warehouse to prepare for analysis. The resulting data set that R will be used to analyze is [this].
 
 Here is a preview of the data set:
 
-```{r table, include = TRUE}
+```{r table}
 library(DT)
-#preview first 50 rows of the data set
+#Preview first 50 rows of the data set, list 10 entries per page
 preview <- tpabay[1:50,]
 table <- datatable(preview, options = list(pageLength = 10,scrollX='400px'))
-table
-
 ```
-
+```{r, echo=FALSE}
+table
+```
 
 ###Descriptive Statistics
 ```{r tpabay}
