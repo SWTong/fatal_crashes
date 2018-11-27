@@ -5,6 +5,8 @@ output:
 ---
 #### _By Sharon Tong, University of South Florida - Tampa_
 
+[View on GitHub](https://github.com/SWTong/fatal_crashes)
+
 ```{r include = FALSE}
 library("leaflet")
 library("magrittr") 
@@ -15,6 +17,7 @@ setwd("C:\\Users\\Sharon\\Desktop\\fatal_crashes")
 
 #read the tbay csv file
 tbay_acc <- read.csv("tbay_acc.csv")
+hb <- filter(tbay_acc, tbay_acc$COUNTY_NAME == "HILLSBOROUGH")
 ```
 
 ``` {r map_label, include = FALSE}
@@ -43,7 +46,7 @@ tbay_map
 
 ###The Problem
 Lots of accidents happen all over the country. According to %
-Florida is ranked % in the year % in terms of the number of accidents that occurred. A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the geographics of the accidents, particularly in the Tampa Bay Area.
+Florida is ranked % in the year % in terms of the number of accidents that occurred. A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month, day of week, and location, particularly in the Tampa Bay Area.
 
 
 ###The Data
@@ -73,7 +76,7 @@ Let's take a look at the structure of the data set by running the R code below. 
 str(tbay_acc)
 ```
 
-__Question: How many accidents occurred in each county in the Tampa Bay Area? Is there a difference in the number of accidents between rural and urban areas?__
+__Question: How many fatal accidents occurred in each county in the Tampa Bay Area? Is there a difference in the number of accidents between rural and urban areas?__
 
 To answer this question, we can create a bar chart based on our data that includes the county name, rural and urban area types, and the frequency of each accident.
 
@@ -123,8 +126,40 @@ rururb_bar <- plot_ly(ctyrururb, x = ~ctyrururb$County, y = ~ctyrururb$Rural, ty
 rururb_bar
 ```
 
+From the bar chart, we can see that Hillsborough County had the highest number of fatal crashes in 2016 compared to other Tampa Bay counties. There appears to be more fatal accidents occurring in urban areas compared to rural areas. 
 
-__Question: What months had the highest number of accident in the Tampa Bay Area in 2016?__
+Note: this chart does not include areas that are not rural or urban even though non-rural and non-urban data is available within the tbay_acc.csv file.
+
+__Question: Where do most fatal accidents occur in Hillsborough County?__
+
+To answer this question, we can create a map based on rows from our tbay_acc.csv where the county name is Hillsborough
+and apply a cluster accidents that are within a short distance from each other to make the map more readable.
+
+```{r hb_map_code}
+popupInfo2 <- paste("<b>Month: </b>", hb$MONTH_NAME,
+                 "<br>", "<b> Day of Week: </b>", hb$DAY_WEEK_NAME,
+                 "<br>", "<b> Trafficway1: </b>", hb$TWAY_ID,
+                 "<br>", "<b> Trafficway2: </b>", hb$TWAY_ID2,
+                "<br>", "<b> Intersection Type: </b>", hb$TYP_INT_NAME,
+                 "<br>", "<b> County: </b>", hb$COUNTY_NAME,
+                 "<br>", "<b> City: </b>", hb$CITY_NAME
+                  )
+
+hb_map <- leaflet(data=hb) %>% 
+addTiles() %>% 
+addMarkers(data = hb, lng = ~ LONGITUD, lat = ~ LATITUDE, 
+                  popup = popupInfo2,
+                   clusterOptions = markerClusterOptions())
+```
+
+```{r, echo=FALSE}
+
+hb_map
+```
+
+From the map of Hillsborough County, we can see that Tampa had the highest number of fatal accidents, leading with about 57 accidents. Within Tampa,  I-275 was the location where most fatal accidents occurred.
+
+__Question: What months had the highest number of fatal accident in the Tampa Bay Area in 2016?__
 
 To answer this question, we can create another bar chart based on our data that includes the month and the frequency of each accident.
 
