@@ -132,8 +132,8 @@ Note: this chart does not include areas that are not rural or urban even though 
 
 __Question: Where do most fatal accidents occur in Hillsborough County?__
 
-To answer this question, we can create a map based on rows from our tbay_acc.csv where the county name is Hillsborough
-and apply a cluster accidents that are within a short distance from each other to make the map more readable.
+To answer this question, we can create a map based on rows from our tbay_acc.csv where the county name is 
+Hillsborough and apply a cluster accidents that are within a short distance from each other to make the map more readable.
 
 ```{r hb_map_code}
 popupInfo2 <- paste("<b>Month: </b>", hb$MONTH_NAME,
