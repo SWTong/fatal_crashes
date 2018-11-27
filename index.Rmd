@@ -3,61 +3,36 @@ title: "Tampa Bay Area 2016 Fatal Crashes Analysis"
 output:
   html_document
 ---
-#### By Sharon Tong, University of South Florida - Tampa
+#### _By Sharon Tong, University of South Florida - Tampa_
 
 ```{r include = FALSE}
 library("leaflet")
 library("magrittr") 
+library("dplyr")
 
 #get directory path of data set
 setwd("C:\\Users\\Sharon\\Desktop\\fatal_crashes")
 
-#read csv file and store data set into variable named accident
-florida <- read.csv("florida_dataset.csv")
-
-#subset florida data set to hillsborough
-hillsb <- florida[florida$COUNTY_NAME == 'HILLSBOROUGH',]
-
-#subset florida data set to pinellas
-pinellas <- florida[florida$COUNTY_NAME == 'PINELLAS',]
-
-#subset florida data set to pasco
-pasco <- florida[florida$COUNTY_NAME == 'PASCO',]
-
-#subset florida data set to hernando
-hernando <- florida[florida$COUNTY_NAME == 'HERNANDO',]
-
-#subset florida data set to citrus
-citrus <- florida[florida$COUNTY_NAME == 'CITRUS',]
-
-#subset florida data set to manatee
-manatee <- florida[florida$COUNTY_NAME == 'MANATEE',]
-
-#subset florida data set to sarasota
-sarasota <- florida[florida$COUNTY_NAME == 'SARASOTA',]
-
-polk <- florida[florida$COUNTY_NAME == 'POLK',]
-
-#combine counties to create the tampa bay data set
-tpabay <- rbind(hillsb, pinellas, pasco, hernando, citrus, manatee, sarasota, polk)
+#read the tbay csv file
+tbay_acc <- read.csv("tbay_acc.csv")
 ```
 
 ``` {r map_label, include = FALSE}
 
-popupInfo <- paste("<b>Month: </b>", tpabay$MONTH_NAME,
-                 "<br>", "<b> Day of Week: </b>", tpabay$DAY_WEEK_NAME,
-                 "<br>", "<b> Trafficway1: </b>", tpabay$TWAY_ID,
-                 "<br>", "<b> Trafficway2: </b>", tpabay$TWAY_ID2,
-                "<br>", "<b> Intersection Type: </b>", tpabay$TYP_INT_NAME,
-                 "<br>", "<b> County: </b>", tpabay$COUNTY_NAME,
-                 "<br>", "<b> City: </b>", tpabay$CITY_NAME
+popupInfo <- paste("<b>Month: </b>", tbay_acc$MONTH_NAME,
+                 "<br>", "<b> Day of Week: </b>", tbay_acc$DAY_WEEK_NAME,
+                 "<br>", "<b> Trafficway1: </b>", tbay_acc$TWAY_ID,
+                 "<br>", "<b> Trafficway2: </b>", tbay_acc$TWAY_ID2,
+                "<br>", "<b> Intersection Type: </b>", tbay_acc$TYP_INT_NAME,
+                 "<br>", "<b> County: </b>", tbay_acc$COUNTY_NAME,
+                 "<br>", "<b> City: </b>", tbay_acc$CITY_NAME
                   )
 ```
 
 ```{r tpabay_map, include=FALSE}
-tbay_map <- leaflet(data=tpabay, width = "100%") %>% 
+tbay_map <- leaflet(data=tbay_acc, width = "100%") %>% 
 addTiles() %>% 
-addMarkers(data = tpabay, lng = ~ LONGITUD, lat = ~ LATITUDE, 
+addMarkers(data = tbay_acc, lng = ~ LONGITUD, lat = ~ LATITUDE, 
                   popup = popupInfo,
                    clusterOptions = markerClusterOptions())
 ```
@@ -67,17 +42,22 @@ tbay_map
 ```
 
 ###The Problem
-Lots of accidents happen all over the country.
+Lots of accidents happen all over the country. According to %
+Florida is ranked % in the year % in terms of the number of accidents that occurred. A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the geographics of the accidents, particularly in the Tampa Bay Area.
+
 
 ###The Data
-The data I will be using can be obtained from the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). After downloading the data, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original FARS data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server and organized the data into a data warehouse to prepare for analysis. The resulting data set that R will be used to analyze is [this].
+The data I will be using will come from one of the csv files named `accidents.csv` that contains data about __fatal__ accidents (accidents where at least one death occurred) that occurred in all U.S. states in 2016. The csv file can be obtained from within a zipped folder from the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). After downloading the file, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original accidents data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server to store the data and organized the data into a data warehouse to prepare for analysis. 
+
+The resulting clean data set that R will be analyzing is [this](tbay_acc.csv).
 
 Here is a preview of the data set:
 
 ```{r table}
-library(DT)
 #Preview first 50 rows of the data set, list 10 entries per page
-preview <- tpabay[1:50,]
+library(DT)
+
+preview <- tbay_acc[1:50,]
 table <- datatable(preview, options = list(pageLength = 10,scrollX='400px'))
 ```
 ```{r, echo=FALSE}
@@ -85,8 +65,90 @@ table
 ```
 
 ###Descriptive Statistics
+
+Let's take a look at the structure of the data set by running the R code below. The result shows that there are 705 observations (rows) and 25 variables (columns). On the left-hand side, R displays a list of all the columns and on the right-hand side, their data types and examples of some of their values. "Int" represents integer data, "Factor" represents qualitative data, and "num" represents non-integer data.
+
+
 ```{r tpabay}
-str(tpabay)
+str(tbay_acc)
+```
+
+__Question: How many accidents occurred in each county in the Tampa Bay Area? Is there a difference in the number of accidents between rural and urban areas?__
+
+To answer this question, we can create a bar chart based on our data that includes the county name, rural and urban area types, and the frequency of each accident.
+
+```{r rururb, include = FALSE}
+#subset tbay csv data set to only show accidents in rural areas
+tbay_rur <- filter(tbay_acc, tbay_acc$RUR_URB_NAME == "Rural")
+
+#subset tbay csv data set to only show accidents in urban areas
+tbay_urb <- filter(tbay_acc, tbay_acc$RUR_URB_NAME == "Urban")
+
+#create a new data set that only has county name, rural, and count of accidents to prepare for plotly bar chart
+ctyrur <- data.frame(tbay_rur %>% group_by(tbay_rur$COUNTY_NAME,tbay_rur$RUR_URB_NAME) %>% tally())
+
+#rename ctyrur column n to be called Rural to prepare for plotly bar chart
+ctyrur <- rename(ctyrur, "Rural" = "n", "County" = "tbay_rur.COUNTY_NAME")
+  
+#remove the ctyrur column tbay_rur.RUR_URB_NAME to prepare for plotly bar chart
+ctyrur <- select(ctyrur,-"tbay_rur.RUR_URB_NAME")
+
+#create a new data set that only has county name, urban, and count of accidents to prepare for plotly bar chart
+
+ctyurb <- data.frame(tbay_urb %>% group_by(tbay_urb$COUNTY_NAME,tbay_urb$RUR_URB_NAME) %>% tally())
+
+ctyurb <- rename(ctyurb, "Urban" = "n", "County" = "tbay_urb.COUNTY_NAME")
+
+ctyurb <- select(ctyurb, -"tbay_urb.RUR_URB_NAME")
+
+ctyrururb <- bind_cols(ctyrur, ctyurb)
+
+#merge rural and urban data sets to prepare for plotting
+ctyrururb <- left_join(ctyrur, ctyurb, by=c("County"))
+
+```
+
+```{r rururb_barchart, message = FALSE}
+
+#plot a bar chart using the Plotly library for merged rural and urban data set created from tbay_acc.csv
+library("plotly")
+
+rururb_bar <- plot_ly(ctyrururb, x = ~ctyrururb$County, y = ~ctyrururb$Rural, type = 'bar', name = 'Rural', marker = list(color = 'rgb(49,130,189)')) %>%
+  add_trace(y = ~ctyrururb$Urban, name = 'Urban', marker = list(color = 'rgb(204,204,204)')) %>%
+  layout(title = "Tampa Bay Fatal Accidents by County and Rural/Urban Area in 2016",
+        xaxis = list(title = "County", tickangle = -45),
+         yaxis = list(title = "Number of Accidents"),
+         margin = list(b = 100),
+         barmode = 'group')
+rururb_bar
 ```
 
 
+__Question: What months had the highest number of accident in the Tampa Bay Area in 2016?__
+
+To answer this question, we can create another bar chart based on our data that includes the month and the frequency of each accident.
+
+```{r, month_bar}
+#create a data set with month and number of accidents from the tbay_acc csv file, 
+#rename the month data set columns, and 
+#plot the month data set using the Plotly library
+library("plotly")
+
+months_set <- data.frame(tbay_acc %>% group_by(tbay_acc$MONTH_NAME) %>% tally())
+months_set <- rename(months_set, "Month" = "tbay_acc.MONTH_NAME", "AccCount" = "n")
+month_plot <- plot_ly(months_set, x = ~months_set$Month, y = ~months_set$AccCount, type = 'bar') %>%
+  layout(title="Tampa Bay Fatal Accidents by Month in 2016",
+       xaxis = list(title = "Month", tickangle = -45),
+         yaxis = list(title = "Number of Accidents")
+       )
+month_plot
+```
+
+From the bar chart, we can see that the month with the highest number of fatal accidents in 2016 in the Tampa Bay Area is May with 69 accidents, followed by August with 65 accidents.
+
+###References
+
+1. [Using R for Crime Analysis](https://wetlands.io/maps/Crime-Analysis-Using-R.html#aggregate_data) by Dr. Qiusheng Wu, State University of New York at Binghamton
+2. [Bar Charts in R](https://plot.ly/r/bar-charts/) by Plotly
+3. [Create a website with R](https://www.youtube.com/watch?v=QYr06j_JMdo) by Alex Shpenev
+4. [Leaflet for R - Markers](https://rstudio.github.io/leaflet/markers.html) by RStudio

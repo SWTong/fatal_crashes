@@ -1,0 +1,706 @@
+"","ï..ST_CASE","STATE_NAME","CITY_NAME","COUNTY_NAME","RUR_URB_NAME","TYP_INT_NAME","TWAY_ID","TWAY_ID2","HARM_EV_NAME","FATALS","DRUNK_DR","VE_TOTAL","VE_FORMS","PVH_INVL","PEDS","PERNOTMVIT","PERMVIT","PERSONS","MONTH_NAME","DAY_WEEK_NAME","WEATHER_NAME","LGT_COND_NAME","LATITUDE","LONGITUD"
+"1",120029,"FLORIDA","PLANT CITY","HILLSBOROUGH","Urban","T-Intersection","SR-39","ENGLISH STREET","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"January","Thursday","Clear","Dark - Lighted",28.0274,-82.1257
+"2",120036,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Concrete Traffic Barrier",1,0,1,1,0,0,0,1,1,"January","Wednesday","Clear","Daylight",27.9492,-82.4513
+"3",120116,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","US-301","ESTATES DEL SOL DR","Rollover/Overturn",1,0,2,2,0,0,0,4,4,"February","Monday","Cloudy","Dark - Lighted",27.8151,-82.3321
+"4",120129,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"January","Thursday","Clear","Dark - Not Lighted",27.7015,-82.4541
+"5",120144,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","I-275 RAMP","","Motor Vehicle in Transport",2,0,2,2,0,0,0,2,2,"February","Friday","Clear","Dark - Lighted",27.9619,-82.4538
+"6",120151,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"January","Monday","Clear","Dark - Not Lighted",28.135,-82.4133
+"7",120164,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","US-92","39A ALEXANDER STREET","Ditch",1,1,1,1,0,0,0,1,1,"February","Friday","Other","Unknown",28.0636,-82.1358
+"8",120179,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","","Motor Vehicle in Transport",2,1,2,2,0,0,0,3,3,"February","Saturday","Clear","Dark - Not Lighted",27.6904,-82.3428
+"9",120216,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","GIBSONTON DR","Motor Vehicle in Transport",1,0,3,3,0,0,0,5,5,"March","Saturday","Clear","Daylight",27.8615,-82.3267
+"10",120241,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"March","Tuesday","Clear","Dark - Lighted",27.8486,-82.3466
+"11",120259,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"March","Wednesday","Clear","Daylight",27.825,-82.3305
+"12",120279,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SHORE BLVD","","Utility Pole/Light Support",1,1,1,1,0,0,0,1,1,"January","Saturday","Clear","Dark - Lighted",27.9233,-82.5239
+"13",120280,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","US-92","TAMPA BAY BLVD W","Curb",1,1,1,1,0,0,0,1,1,"January","Monday","Cloudy","Dark - Lighted",27.974,-82.5054
+"14",120281,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","US-92","","Curb",1,0,1,1,0,0,0,1,1,"January","Friday","Clear","Dark - Lighted",27.9466,-82.5056
+"15",120282,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-60","","Guardrail Face",1,1,2,2,0,0,0,5,5,"January","Monday","Clear","Dark - Lighted",27.9675,-82.568
+"16",120294,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","US-92","CYPRESS ST","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"March","Wednesday","Clear","Dark - Lighted",27.9521,-82.5056
+"17",120299,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Four-Way Intersection","CR-579","SLIGH AVE","Motor Vehicle in Transport",1,2,2,2,0,0,0,4,4,"February","Sunday","Clear","Dark - Lighted",28.0106,-82.3024
+"18",120300,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","US-301","BALM RIVERVIEW RD","Motor Vehicle in Transport",1,0,6,6,0,0,0,11,11,"March","Friday","Clear","Daylight",27.7701,-82.3348
+"19",120301,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","FLETCHER  AV","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"January","Saturday","Clear","Dark - Lighted",28.0692,-82.3886
+"20",120302,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","CR-589","FLORA ST","Rollover/Overturn",1,1,2,2,0,0,0,2,2,"January","Tuesday","Clear","Dark - Lighted",28.0122,-82.5454
+"21",120303,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","RIVERVIEW DR","","Tree (Standing Only)",1,1,1,1,0,0,0,2,2,"January","Wednesday","Clear","Dark - Not Lighted",27.8637,-82.3811
+"22",120304,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-618","","Motor Vehicle in Transport",2,1,3,3,0,0,0,4,4,"March","Saturday","Clear","Dark - Lighted",27.9281,-82.3336
+"23",120305,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","MORRIS BRIDGE RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"March","Thursday","Clear","Daylight",28.1648,-82.2656
+"24",120306,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","OLD MULBERRY RD","","Utility Pole/Light Support",1,1,1,1,0,0,0,2,2,"March","Friday","Clear","Dark - Not Lighted",27.9622,-82.064
+"25",120307,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","LITHIA PINECREST RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"March","Saturday","Cloudy","Daylight",27.9242,-82.2708
+"26",120308,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","JOE EBERT RD","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"March","Friday","Cloudy","Dark - Not Lighted",28.0361,-82.3073
+"27",120358,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"February","Thursday","Clear","Daylight",27.9401,-82.3298
+"28",120361,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-39","","Motor Vehicle in Transport",2,0,3,3,0,0,0,3,3,"March","Friday","Cloudy","Daylight",27.7511,-82.1458
+"29",120384,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","T-Intersection","SR-60","PARKER ST","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"March","Saturday","Clear","Dark - Lighted",27.9461,-82.4622
+"30",120387,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","WILLIAMS RD","","Traffic Sign Support",1,0,1,1,0,0,0,3,3,"April","Sunday","Cloudy","Dark - Lighted",28.0299,-82.3326
+"31",120388,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","BELL SHOALS RD","","Motor Vehicle in Transport",2,1,2,2,0,0,0,3,3,"March","Thursday","Clear","Dark - Not Lighted",27.8616,-82.2692
+"32",120406,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","WIGGINS RD","KIRKLAND RD","Motor Vehicle in Transport",1,1,2,2,0,0,0,6,6,"April","Friday","Clear","Daylight",28.004,-82.0679
+"33",120427,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41 SR-45","","Pedestrian",1,1,1,1,0,1,1,1,1,"January","Saturday","Clear","Dark - Lighted",27.8395,-82.3816
+"34",120489,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Parked Motor Vehicle (Not in Transport)",1,0,2,1,1,1,3,1,3,"February","Monday","Clear","Dark - Lighted",27.934,-82.5694
+"35",120525,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"March","Saturday","Cloudy","Dark - Lighted",27.7677,-82.3927
+"36",120547,"FLORIDA","TAMPA","HILLSBOROUGH","Rural","Not an Intersection","SR-574","","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Monday","Clear","Dark - Lighted",27.9813,-82.4795
+"37",120548,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","14TH ST","","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Saturday","Clear","Dark - Lighted",27.9757,-82.4442
+"38",120549,"FLORIDA","TAMPA","HILLSBOROUGH","Rural","Not an Intersection","INTERBAY BLVD","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"March","Saturday","Clear","Dark - Lighted",27.8793,-82.4956
+"39",120550,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-583","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"March","Saturday","Clear","Dark - Lighted",27.9777,-82.4017
+"40",120557,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SINCLAIR HILLS RD","","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Tuesday","Clear","Daylight",28.0915,-82.4327
+"41",120558,"FLORIDA","Not Applicable","HILLSBOROUGH","Trafficway Not in State Inventory","Not an Intersection","SOLANO BAY LP","","Pedestrian",1,0,1,1,0,1,1,1,1,"January","Thursday","Rain","Daylight",28.0291,-82.6403
+"42",120559,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Four-Way Intersection","CR-587","NIXON RD","Pedestrian",1,0,2,2,0,1,1,3,3,"January","Thursday","Rain","Dark - Lighted",28.0567,-82.5314
+"43",120560,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","PARSONS AV","","Pedestrian",1,0,1,1,0,1,1,2,2,"March","Saturday","Clear","Dark - Not Lighted",27.9772,-82.2859
+"44",120561,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","BRUCE B DOWNS BL","","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Monday","Clear","Dark - Not Lighted",28.0721,-82.4261
+"45",120562,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","NORTHTON GROVES BL","PRIVATE PROPERTY","Parked Motor Vehicle (Not in Transport)",1,0,2,1,1,1,1,1,1,"March","Sunday","Cloudy","Daylight",28.0939,-82.5796
+"46",120605,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-597","","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Saturday","Cloudy","Dark - Lighted",28.0771,-82.5067
+"47",120610,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","SR-574","17TH ST","Pedestrian",1,0,1,1,0,1,1,3,3,"March","Friday","Clear","Dark - Not Lighted",27.9815,-82.44
+"48",120645,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","US-41","TOWAWAY AVE","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"April","Monday","Clear","Dark - Not Lighted",27.9163,-82.4021
+"49",120654,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-580","HESPERIDES ST","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"April","Friday","Cloudy","Dark - Lighted",27.9961,-82.5197
+"50",120710,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","US-301","BLOOMINGDALE AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"April","Saturday","Clear","Dark - Lighted",27.8938,-82.3377
+"51",120746,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-580 BUSCH BLVD","18TH ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"April","Tuesday","Clear","Dark - Lighted",28.0325,-82.4387
+"52",120762,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Parked Motor Vehicle (Not in Transport)",1,1,2,1,1,0,0,1,1,"April","Friday","Cloudy","Dark - Lighted",27.6821,-82.4757
+"53",120801,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SR-39","","Railway Vehicle",1,0,1,1,0,0,0,2,2,"April","Saturday","Clear","Daylight",28.1003,-82.1421
+"54",120803,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","T-Intersection","US-92","CLARK AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"April","Tuesday","Clear","Daylight",27.8937,-82.5122
+"55",120838,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","E COLUMBUS DR","I-4 RAMP","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"April","Tuesday","Clear","Dark - Lighted",27.9663,-82.406
+"56",120871,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","SR-508","REFLECTIONS CLUB DR","Rollover/Overturn",1,0,2,2,0,0,0,4,4,"April","Saturday","Clear","Dark - Lighted",27.9964,-82.5628
+"57",120877,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Monday","Clear","Daylight",27.7262,-82.3828
+"58",120896,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-508","","Pedestrian",1,0,1,1,0,1,1,2,2,"May","Saturday","Clear","Dark - Not Lighted",28.0157,-82.6164
+"59",120904,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","BIG BEND RD","CLEMENT PRIDE BL","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"May","Saturday","Clear","Daylight",27.7922,-82.3086
+"60",120907,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-676","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"May","Wednesday","Clear","Daylight",27.9232,-82.3052
+"61",120932,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","CR-676A BLOOMINGDALE AVE","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"May","Friday","Clear","Daylight",27.8936,-82.2842
+"62",120935,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Roundabout","MOSAIC DR","BOYETTE RD","Curb",1,0,1,1,0,0,0,1,1,"May","Saturday","Other","Unknown",27.8498,-82.2609
+"63",120961,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","FISHHAWK BLVD","","Guardrail End",1,1,1,1,0,0,0,1,1,"May","Friday","Clear","Daylight",27.8539,-82.2147
+"64",120974,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"April","Monday","Clear","Dark - Not Lighted",27.7592,-82.3351
+"65",120978,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","I-75","","Guardrail Face",1,0,1,1,0,0,0,2,2,"May","Thursday","Cloudy","Dark - Not Lighted",28.1496,-82.3869
+"66",120979,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-60","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Saturday","Clear","Dark - Lighted",27.9378,-82.2916
+"67",121004,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Motor Vehicle in Transport",1,0,4,4,0,0,0,7,7,"May","Sunday","Clear","Daylight",27.9557,-82.4673
+"68",121007,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Motor Vehicle in Transport",1,2,2,2,0,0,0,2,2,"May","Monday","Clear","Dark - Not Lighted",27.8982,-82.4017
+"69",121022,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-582","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Saturday","Clear","Dark - Not Lighted",28.0541,-82.3354
+"70",121050,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SUNLAKE BLVD","","Live Vehicle",1,0,1,1,0,0,0,1,1,"May","Monday","Clear","Dark - Lighted",28.1654,-82.5007
+"71",121062,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","SR-676","DARLINGTON DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Thursday","Clear","Dusk",27.9226,-82.3652
+"72",121063,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75 RAMP","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Thursday","Cloudy","Daylight",27.9323,-82.3305
+"73",121070,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","US-92","PALM DR","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"May","Saturday","Clear","Daylight",27.9238,-82.5059
+"74",121100,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","HULSEY RD","HEATHER FIELD DR","Pedalcyclist",1,1,1,1,0,1,1,1,1,"May","Thursday","Clear","Dark - Lighted",28.034,-82.5581
+"75",121104,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","PARSONS AV","CLEMONS AVE","Motor Vehicle in Transport",2,0,4,4,0,0,0,6,6,"May","Monday","Clear","Daylight",27.9523,-82.2859
+"76",121126,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Friday","Clear","Daylight",27.9662,-82.4594
+"77",121182,"FLORIDA","PLANT CITY","HILLSBOROUGH","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Wednesday","Clear","Daylight",28.0197,-82.1617
+"78",121204,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-508","","Pedestrian",1,0,1,1,0,1,1,1,1,"June","Wednesday","Clear","Dark - Not Lighted",27.9965,-82.5513
+"79",121212,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-589","GUNN HWY","Concrete Traffic Barrier",2,0,1,1,0,0,0,2,2,"June","Saturday","Cloudy","Dark - Lighted",28.0567,-82.5696
+"80",121217,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Concrete Traffic Barrier",1,0,1,1,0,0,0,1,1,"June","Wednesday","Cloudy","Dark - Lighted",27.9549,-82.4619
+"81",121226,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-574","","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"June","Thursday","Cloudy","Daylight",27.9664,-82.3649
+"82",121239,"FLORIDA","PLANT CITY","HILLSBOROUGH","Rural","Not an Intersection","CR-39B","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"May","Monday","Clear","Dark - Not Lighted",27.9991,-82.1051
+"83",121262,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","SR-60","LIMONA RD","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"June","Wednesday","Clear","Dark - Lighted",27.9377,-82.3041
+"84",121290,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","WILLIAMS RD","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"June","Thursday","Cloudy","Dark - Lighted",27.9683,-82.3187
+"85",121293,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-579","","Immersion or Partial Immersion",1,1,1,1,0,0,0,1,1,"June","Thursday","Clear","Daylight",27.7006,-82.3018
+"86",121294,"FLORIDA","Not Applicable","HILLSBOROUGH","Trafficway Not in State Inventory","T-Intersection","CLIMATE DR","BREEZY DR","Fell/jumped from Vehicle",1,0,1,1,0,0,0,2,2,"June","Sunday","Clear","Dark - Lighted",27.9129,-82.2952
+"87",121300,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-580","","Pedestrian",1,0,1,1,0,1,1,1,1,"June","Monday","Clear","Dark - Not Lighted",27.9962,-82.5192
+"88",121315,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-582","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Friday","Cloudy","Daylight",28.1447,-82.6024
+"89",121338,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Concrete Traffic Barrier",1,0,1,1,0,0,0,1,1,"June","Friday","Clear","Dark - Lighted",28.0908,-82.4546
+"90",121361,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-640 LITHIA PINECREST RD","","Motor Vehicle In-Transport Strikes/Struck by Objects Set in Motion by Another MVIT",1,0,2,2,0,0,0,2,2,"June","Tuesday","Clear","Daylight",27.8506,-82.0769
+"91",121379,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-60","","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"July","Sunday","Clear","Dark - Lighted",27.9674,-82.568
+"92",121381,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","BALM BOYETTE RD","","Traffic Sign Support",1,1,1,1,0,0,0,1,1,"July","Friday","Other","Dark - Not Lighted",27.777,-82.251
+"93",121384,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","BULL FROG CREEK RD","","Pedestrian",1,0,1,1,0,1,1,2,2,"July","Sunday","Clear","Dark - Lighted",27.7973,-82.3523
+"94",121388,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Sunday","Cloudy","Dark - Not Lighted",27.892,-82.3485
+"95",121399,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","","Motor Vehicle in Transport",3,1,4,4,0,0,0,7,7,"July","Saturday","Clear","Dark - Not Lighted",28.0795,-82.2851
+"96",121403,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Pedalcyclist",1,1,1,1,0,1,1,1,1,"June","Wednesday","Clear","Daylight",27.9316,-82.5763
+"97",121440,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","TAYLOR GILL RD","","Rollover/Overturn",1,0,1,1,0,0,0,2,2,"July","Monday","Clear","Dark - Not Lighted",27.6833,-82.1207
+"98",121445,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-60","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"July","Tuesday","Clear","Daylight",27.9377,-82.2804
+"99",121446,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","LIVINGSTON AVE","","Pedestrian",1,0,1,1,0,1,1,1,1,"July","Wednesday","Rain","Dusk",28.0844,-82.4308
+"100",121447,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"July","Friday","Clear","Daylight",28.0416,-82.3508
+"101",121452,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","FALKENBURG RD","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"July","Wednesday","Cloudy","Daylight",27.8861,-82.3582
+"102",121497,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-574","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"July","Sunday","Clear","Dark - Not Lighted",27.9723,-82.3385
+"103",121545,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41 SR-45","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"July","Saturday","Clear","Dark - Lighted",27.9141,-82.4019
+"104",121555,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","COOPER RD","","Mail Box",1,0,1,1,0,0,0,2,2,"July","Saturday","Clear","Dusk",28.0741,-82.2163
+"105",121559,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"July","Sunday","Clear","Daylight",27.7197,-82.3835
+"106",121580,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","GIBSONTON DR","VAUGHN ST","Pedestrian",1,0,1,1,0,1,1,2,2,"July","Wednesday","Clear","Dark - Not Lighted",27.8495,-82.3556
+"107",121582,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","BEARSS AV","","Pedestrian",1,0,1,1,0,1,1,2,2,"July","Saturday","Clear","Dark - Lighted",28.0803,-82.4287
+"108",121620,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Traffic Sign Support",1,0,1,1,0,0,0,1,1,"July","Monday","Clear","Daylight",27.9606,-82.327
+"109",121636,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Four-Way Intersection","CR-589","LINEBAUGH AV","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Monday","Clear","Dark - Lighted",28.0446,-82.5827
+"110",121647,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-60","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"July","Saturday","Clear","Dark - Lighted",27.9677,-82.5698
+"111",121648,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","FOWLER AVE E","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Tuesday","Rain","Dark - Lighted",28.0545,-82.4303
+"112",121649,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Four-Way Intersection","CR-576","KELLY RD","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"August","Monday","Cloudy","Dark - Lighted",27.9817,-82.5649
+"113",121662,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-508","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Monday","Cloudy","Dark - Not Lighted",27.9962,-82.541
+"114",121673,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-589","","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Sunday","Clear","Dark - Not Lighted",28.0168,-82.583
+"115",121699,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"August","Sunday","Cloudy","Dark - Lighted",28.0536,-82.357
+"116",121708,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","50TH ST","BROADWAY AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Saturday","Clear","Dark - Not Lighted",27.9618,-82.4019
+"117",121716,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","BUSCH BLVD","BROOKS ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Tuesday","Clear","Dark - Lighted",28.0327,-82.4455
+"118",121757,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","BEARSS AV","16TH ST","Pedalcyclist",1,0,1,1,0,1,1,1,1,"August","Friday","Cloudy","Dark - Not Lighted",28.0812,-82.4427
+"119",121778,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","SR-597","LAMBRIGHT ST","Pedalcyclist",1,0,2,2,0,1,1,3,3,"August","Monday","Clear","Dark - Lighted",28.007,-82.505
+"120",121798,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Four-Way Intersection","SR-39","SAM ALLEN RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Monday","Clear","Dawn",28.0474,-82.1359
+"121",121802,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-4","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"August","Wednesday","Clear","Daylight",28.0036,-82.3146
+"122",121892,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","NORTHDALE BLVD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"September","Thursday","Clear","Daylight",28.107,-82.5136
+"123",121893,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","SR-60","KNIGHTS AVE","Pedalcyclist",1,0,1,1,0,1,1,2,2,"September","Saturday","Clear","Dark - Lighted",27.9378,-82.2898
+"124",121913,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","ORIENT RD","7TH AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Sunday","Clear","Dark - Lighted",27.9603,-82.3729
+"125",121933,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","GUNN HW","","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"August","Sunday","Clear","Dark - Not Lighted",28.1033,-82.583
+"126",121941,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-4","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"September","Tuesday","Clear","Daylight",27.9819,-82.3844
+"127",121975,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","BOULEVARD AVE","NORTH B ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Saturday","Clear","Dark - Lighted",27.9488,-82.4912
+"128",121994,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SR-674","CHERT ROCK TRL","Motor Vehicle in Transport",2,0,2,2,0,0,0,3,3,"April","Friday","Clear","Daylight",27.7053,-82.2585
+"129",122027,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","OREGON AVE","","Pedestrian",1,0,1,1,0,1,1,2,2,"September","Friday","Clear","Daylight",27.9449,-82.4747
+"130",122041,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-4","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"September","Sunday","Clear","Dark - Not Lighted",28.0268,-82.1878
+"131",122065,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","T-Intersection","SR-580","LOIS AVE","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"September","Saturday","Clear","Dark - Lighted",27.9959,-82.5072
+"132",122077,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","US-41","21ST AVE","Motor Vehicle in Transport",1,0,4,2,2,0,0,2,2,"September","Sunday","Clear","Daylight",27.9292,-82.4018
+"133",122079,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-4","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Sunday","Clear","Daylight",28.002,-82.3265
+"134",122103,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","CLAY AVE","KINGSWAY RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Sunday","Clear","Dark - Lighted",27.945,-82.2776
+"135",122106,"FLORIDA","TAMPA","HILLSBOROUGH","Rural","T-Intersection","BUSCH BLVD","17TH ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Saturday","Clear","Daylight",28.0326,-82.4408
+"136",122128,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","COUNTY LINE RD","SHEPHERD ROAD","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"October","Saturday","Rain","Dark - Not Lighted",27.9345,-82.0553
+"137",122129,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","COUNTY LINE RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"October","Monday","Cloudy","Daylight",27.9457,-82.0556
+"138",122134,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","SR-600","DRIVEWAY ACCESS","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"September","Tuesday","Clear","Daylight",27.996,-82.4223
+"139",122179,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","BEARSS AVE E","12TH ST N","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"October","Wednesday","Clear","Daylight",28.0872,-82.4471
+"140",122189,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","KINGS AVE","","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"August","Saturday","Clear","Dark - Lighted",27.9141,-82.2939
+"141",122199,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Concrete Traffic Barrier",1,1,1,1,0,0,0,1,1,"October","Friday","Clear","Dark - Lighted",27.9612,-82.4542
+"142",122200,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Pedestrian",1,1,3,1,2,1,1,1,1,"October","Sunday","Clear","Dark - Not Lighted",27.7832,-82.3598
+"143",122206,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","EHRLICH RD","VILLAGE DR","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"June","Saturday","Cloudy","Daylight",28.0845,-82.5172
+"144",122207,"FLORIDA","Not Applicable","HILLSBOROUGH","Trafficway Not in State Inventory","Not an Intersection","FLUME TER","","Non-Motorist on Personal Conveyance",1,0,1,1,0,1,1,2,2,"July","Sunday","Clear","Daylight",27.8543,-82.3415
+"145",122212,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Pedestrian",1,0,2,2,0,1,1,3,3,"September","Friday","Clear","Dark - Lighted",28.0416,-82.3508
+"146",122218,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","US-41","BEACH AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Tuesday","Clear","Dark - Lighted",27.8394,-82.3816
+"147",122257,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","","Motor Vehicle in Transport",2,0,2,2,0,0,0,3,3,"October","Wednesday","Cloudy","Daylight",28.1245,-82.2373
+"148",122301,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","BOYETTE RD","BALM RIVERVIEW RD","Motor Vehicle in Transport",1,1,3,3,0,0,0,4,4,"October","Tuesday","Clear","Dusk",27.8534,-82.3145
+"149",122308,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","SR-589","SR-60","Motor Vehicle in Transport",2,1,2,2,0,0,0,3,3,"October","Saturday","Clear","Dark - Lighted",27.9676,-82.5462
+"150",122334,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","BAYSHORE BLVD S","","Curb",1,1,1,1,0,0,0,2,2,"October","Sunday","Clear","Dark - Lighted",27.9322,-82.4729
+"151",122337,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","19TH AVE","30TH ST","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"October","Friday","Clear","Daylight",27.7346,-82.3938
+"152",122346,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","LAKE SHORE RANCH DR","","Curb",1,1,1,1,0,0,0,1,1,"October","Saturday","Clear","Dark - Lighted",27.9763,-82.2611
+"153",122355,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Guardrail Face",3,1,1,1,0,0,0,4,4,"November","Sunday","Cloudy","Dark - Lighted",27.9522,-82.3278
+"154",122356,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","HILLSBOROUGH AVE E","","Motor Vehicle in Transport",2,0,5,5,0,0,0,6,6,"October","Monday","Clear","Dark - Lighted",27.996,-82.4488
+"155",122358,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","NATURES WAY BLVD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"November","Sunday","Clear","Dark - Lighted",27.8789,-82.2662
+"156",122359,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","CASON RD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"November","Saturday","Clear","Dark - Not Lighted",27.9891,-82.0665
+"157",122403,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","SLIGH AVE","I-275 RAMP","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Friday","Clear","Dark - Lighted",28.0064,-82.3266
+"158",122416,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","INTERBAY BLVD","INTERBAY AVE","Pedestrian",1,0,1,1,0,1,1,3,3,"November","Saturday","Clear","Dark - Lighted",27.8767,-82.4999
+"159",122431,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","SR-580","BLUE SPRINGS DR","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Wednesday","Clear","Dusk",27.9964,-82.5544
+"160",122432,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-618 SELMON EXPY","","Pedestrian",1,0,1,1,0,1,1,2,2,"October","Sunday","Clear","Dark - Lighted",27.9286,-82.3378
+"161",122435,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Pedestrian",1,0,1,1,0,1,1,1,1,"November","Wednesday","Clear","Dark - Lighted",27.9609,-82.4538
+"162",122454,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","CR-589","STONE RUN CT","Pedestrian",1,0,1,1,0,1,1,1,1,"November","Monday","Cloudy","Dark - Lighted",28.024,-82.5832
+"163",122464,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-628","","Curb",1,1,1,1,0,0,0,2,2,"November","Wednesday","Clear","Dark - Lighted",27.9261,-82.3022
+"164",122466,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"November","Wednesday","Cloudy","Daylight",27.9356,-82.3301
+"165",122486,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","I-275","","Pedestrian",1,1,1,1,0,1,1,1,1,"November","Sunday","Clear","Dark - Lighted",28.0509,-82.4553
+"166",122493,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","FOWLER AVE","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"November","Saturday","Clear","Daylight",28.0544,-82.4482
+"167",122496,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","CR-589","REDWOOD BLVD","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"November","Saturday","Clear","Dark - Lighted",28.0367,-82.5829
+"168",122509,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-574","","Motor Vehicle in Transport",5,0,4,4,0,0,0,10,10,"October","Wednesday","Cloudy","Dark - Lighted",27.9814,-82.3503
+"169",122522,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",2,0,3,3,0,0,0,7,7,"November","Tuesday","Clear","Daylight",28.0669,-82.3529
+"170",122553,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-301","","Fence",1,0,1,1,0,0,0,1,1,"October","Wednesday","Clear","Daylight",27.8403,-82.3276
+"171",122554,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","US-92","HIMES AVE","Pedalcyclist",1,0,1,1,0,1,1,3,3,"November","Sunday","Clear","Dark - Not Lighted",27.9961,-82.5009
+"172",122562,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","GULF CITY RD","","Traffic Sign Support",1,1,1,1,0,0,0,1,1,"November","Wednesday","Clear","Dark - Not Lighted",27.7059,-82.4645
+"173",122565,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","CR-401","REYLINDA AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Friday","Clear","Daylight",28.0403,-82.3272
+"174",122576,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","HILLSBOROUGH AVE","NEBRASKA AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Monday","Clear","Dark - Lighted",27.9961,-82.4511
+"175",122580,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SR-39","","Mail Box",1,0,1,1,0,0,0,1,1,"December","Wednesday","Clear","Daylight",28.1292,-82.148
+"176",122597,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","US-92","56TH STREET","Rollover/Overturn",1,0,2,2,0,0,0,2,2,"November","Wednesday","Clear","Dawn",27.9962,-82.3934
+"177",122618,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Four-Way Intersection","PROVIDENCE RIDGE BLVD","STERLING PALMS CT","Curb",1,0,1,1,0,0,0,1,1,"December","Monday","Clear","Dark - Unknown Lighting",27.9076,-82.3204
+"178",122635,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-574","","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"December","Sunday","Clear","Dusk",27.9817,-82.3069
+"179",122636,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","CR-582","","Motor Vehicle in Transport",1,0,2,2,0,0,0,10,10,"December","Friday","Cloudy","Dark - Not Lighted",28.1417,-82.6182
+"180",122667,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SR-674","OWENS LAKE RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Monday","Clear","Daylight",27.7048,-82.2118
+"181",122670,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","T-Intersection","SR-43","DELANEY CREEK BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Sunday","Clear","Daylight",27.9349,-82.3521
+"182",122696,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SR-574 DR ML KING JR BLVD","","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Saturday","Clear","Other",27.9812,-82.3495
+"183",122738,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","INDEPENDENCE PKWY","","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"December","Monday","Clear","Dark - Lighted",27.9795,-82.5547
+"184",122766,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","BOYETTE RD","","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Thursday","Clear","Dark - Lighted",27.8534,-82.2966
+"185",122767,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","SYMMES RD","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"December","Saturday","Clear","Dark - Not Lighted",27.835,-82.3801
+"186",122768,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","BOYETTE RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Tuesday","Clear","Daylight",27.8213,-82.2083
+"187",122769,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","CR-589","HAMILTON AVE","Motor Vehicle in Transport",1,1,3,3,0,0,0,3,3,"December","Sunday","Clear","Dark - Not Lighted",28.015,-82.583
+"188",122778,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","GIBSONTON DR","","Pedestrian",1,0,1,1,0,1,1,2,2,"December","Friday","Clear","Dark - Lighted",27.8497,-82.3649
+"189",122787,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","SR-674","","Motor Vehicle in Transport",2,1,2,2,0,0,0,3,3,"December","Saturday","Clear","Dark - Not Lighted",27.7123,-82.2844
+"190",122805,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Pedestrian",1,0,2,1,1,1,1,1,1,"December","Tuesday","Clear","Dark - Not Lighted",27.7808,-82.3849
+"191",122821,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","US-301","WALKER RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"December","Saturday","Clear","Daylight",28.0486,-82.3395
+"192",122830,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","INDEPENDENCE PKWY","","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Tuesday","Clear","Daylight",27.981,-82.5561
+"193",122835,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-92","","Pedestrian",1,0,2,2,0,1,1,2,2,"December","Saturday","Clear","Dark - Not Lighted",27.9962,-82.3315
+"194",122838,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Pedestrian",1,0,2,2,0,1,1,4,4,"December","Wednesday","Clear","Dark - Lighted",28.0125,-82.4512
+"195",122840,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Not an Intersection","US-41","","Pedestrian",1,0,1,1,0,1,1,2,2,"December","Friday","Clear","Dark - Lighted",28.0817,-82.4595
+"196",122865,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","T-Intersection","US-92","50TH ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Friday","Clear","Daylight",27.9961,-82.4019
+"197",122894,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","LUTZ LAKE FERN RD","","Utility Pole/Light Support",1,1,1,1,0,0,0,1,1,"October","Thursday","Clear","Dark - Not Lighted",28.1569,-82.508
+"198",122916,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","ARMENIA AVE","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Thursday","Clear","Dark - Not Lighted",27.9762,-82.4848
+"199",122958,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","Not an Intersection","ROYAL BONNET DR","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"December","Thursday","Clear","Daylight",27.7452,-82.4124
+"200",122976,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Four-Way Intersection","HOWARD AVE N","CORDELIA ST W","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Sunday","Clear","Daylight",27.9688,-82.4827
+"201",123012,"FLORIDA","Not Applicable","HILLSBOROUGH","Rural","T-Intersection","CR-580","COUNTRY MEADOWS BL","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Sunday","Cloudy","Daylight",28.0475,-82.1216
+"202",123013,"FLORIDA","PLANT CITY","HILLSBOROUGH","Urban","Four-Way Intersection","BOOT BAY RD","WHITEHURST RD","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"November","Saturday","Clear","Dark - Not Lighted",28.0252,-82.1581
+"203",123034,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","HILLSBOROUGH AVE","","Pedestrian",1,0,1,1,0,1,1,2,2,"August","Saturday","Clear","Dark - Not Lighted",27.996,-82.5118
+"204",123055,"FLORIDA","TAMPA","HILLSBOROUGH","Rural","Four-Way Intersection","40TH ST","HENRY AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"November","Sunday","Clear","Dark - Lighted",27.9997,-82.414
+"205",123085,"FLORIDA","TAMPA","HILLSBOROUGH","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"October","Sunday","Clear","Dark - Lighted",27.8859,-82.5582
+"206",123107,"FLORIDA","Not Applicable","HILLSBOROUGH","Urban","Four-Way Intersection","LINEBAUGH AVE","WILSKY BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"June","Tuesday","Clear","Daylight",28.0402,-82.5663
+"207",123115,"FLORIDA","TAMPA","HILLSBOROUGH","Rural","Not an Intersection","KENNEDY BLVD","","Pedestrian",1,0,1,1,0,1,1,2,2,"October","Saturday","Clear","Dark - Lighted",27.946,-82.4624
+"208",120082,"FLORIDA","Not Applicable","PINELLAS","Urban","Not an Intersection","STARKEY RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"January","Saturday","Clear","Daylight",27.9092,-82.7623
+"209",120160,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","I-275","","Concrete Traffic Barrier",1,0,1,1,0,0,0,2,2,"February","Sunday","Clear","Dark - Lighted",27.9211,-82.6058
+"210",120291,"FLORIDA","GULFPORT","PINELLAS","Urban","T-Intersection","49TH ST","18TH AVE","Curb",1,1,1,1,0,0,0,1,1,"January","Tuesday","Clear","Dark - Lighted",27.7519,-82.6997
+"211",120292,"FLORIDA","DUNEDIN","PINELLAS","Urban","Not an Intersection","CR-1","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"January","Saturday","Clear","Dark - Not Lighted",28.0331,-82.7614
+"212",120293,"FLORIDA","Not Applicable","PINELLAS","Urban","Four-Way Intersection","SR-699","70TH AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Tuesday","Clear","Daylight",27.7389,-82.7494
+"213",120312,"FLORIDA","Not Applicable","PINELLAS","Urban","Not an Intersection","SR-688","","Traffic Sign Support",1,0,1,1,0,0,0,1,1,"February","Monday","Clear","Dark - Lighted",27.8936,-82.6633
+"214",120317,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Four-Way Intersection","49TH ST","62 ND AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"January","Wednesday","Clear","Dark - Lighted",27.8283,-82.7
+"215",120318,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Four-Way Intersection","US-19","BRYAN DAIRY RD","Bridge Pier or Support",1,0,1,1,0,0,0,1,1,"February","Monday","Clear","Dark - Lighted",27.8789,-82.7116
+"216",120340,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","SR-686","","Guardrail Face",1,1,1,1,0,0,0,1,1,"January","Friday","Fog, Smog, Smoke","Dark - Lighted",27.8809,-82.6618
+"217",120341,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not Reported","38TH AVE","42ND ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"January","Wednesday","Rain","Dark - Lighted",27.8064,-82.6907
+"218",120342,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Four-Way Intersection","34TH ST","18TH AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"February","Friday","Clear","Daylight",27.7519,-82.6793
+"219",120343,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","15TH AVE","","Curb",1,0,3,1,2,0,0,1,1,"March","Saturday","Clear","Daylight",27.7557,-82.6662
+"220",120344,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Four-Way Intersection","22ND AVE","72 ND ST","Injured in Vehicle (Non-Collision)",1,0,1,1,0,0,0,2,2,"March","Friday","Clear","Daylight",27.7917,-82.7392
+"221",120440,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","SR-688","","Pedestrian",1,0,1,1,0,1,1,4,4,"January","Thursday","Clear","Dark - Lighted",27.8944,-82.6908
+"222",120473,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","CR-611","","Pedestrian",1,0,1,1,0,1,1,4,4,"February","Sunday","Clear","Dark - Lighted",28.156,-82.6961
+"223",120546,"FLORIDA","GULFPORT","PINELLAS","Urban","T-Intersection","CR-138","BEACH BLVD","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Wednesday","Clear","Dark - Lighted",27.7482,-82.7075
+"224",120571,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Not an Intersection","SR-694","","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Wednesday","Clear","Daylight",27.839,-82.726
+"225",120592,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Four-Way Intersection","31ST ST","26TH AVE","Non-Motorist on Personal Conveyance",1,0,1,1,0,1,1,1,1,"January","Tuesday","Cloudy","Dark - Lighted",27.7447,-82.6752
+"226",120593,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Sunday","Clear","Daylight",27.756,-82.6793
+"227",120594,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","18TH AVE","","Pedestrian",1,0,1,1,0,1,1,3,3,"March","Thursday","Clear","Dark - Lighted",27.752,-82.6616
+"228",120609,"FLORIDA","INDIAN SHORES","PINELLAS","Urban","Not an Intersection","197TH AVE","","Pedestrian",1,0,1,1,0,1,1,0,0,"March","Wednesday","Clear","Daylight",27.8571,-82.8455
+"229",120656,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SR-60","","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Monday","Clear","Dark - Not Lighted",27.9606,-82.7098
+"230",120681,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not Reported","US-19","22ND AVE","Motor Vehicle in Transport",1,1,3,3,0,0,0,3,3,"April","Saturday","Clear","Dark - Lighted",27.7486,-82.6793
+"231",120682,"FLORIDA","SAINT PETERSBURG","PINELLAS","Rural","Not an Intersection","DR MLK ST","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"March","Thursday","Clear","Daylight",27.8125,-82.6469
+"232",120759,"FLORIDA","TREASURE ISLAND","PINELLAS","Urban","Not an Intersection","GULF BLVD","","Pedestrian",1,0,1,1,0,1,1,3,3,"March","Saturday","Clear","Daylight",27.7623,-82.7665
+"233",120773,"FLORIDA","Not Applicable","PINELLAS","Urban","T-Intersection","US-19","HIGHLAND ACRE DR","Motor Vehicle in Transport",2,0,2,2,0,0,0,4,4,"April","Monday","Clear","Daylight",28.042,-82.7382
+"234",120828,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Not an Intersection","SR-693","","Pedestrian",1,0,2,2,0,1,1,2,2,"April","Sunday","Clear","Dark - Lighted",27.8757,-82.7289
+"235",120841,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","MEMORIAL CAUSEWAY","","Traffic Sign Support",1,0,2,2,0,0,0,2,2,"April","Friday","Clear","Daylight",27.9654,-82.8043
+"236",120857,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","US-92","","Pedestrian",1,1,1,1,0,1,1,1,1,"March","Friday","Clear","Dark - Lighted",27.7714,-82.6371
+"237",120869,"FLORIDA","Not Applicable","PINELLAS","Rural","Four-Way Intersection","US-19A","94TH AVE","Rollover/Overturn",1,1,2,2,0,0,0,2,2,"April","Friday","Clear","Daylight",27.8573,-82.7288
+"238",120878,"FLORIDA","Not Applicable","PINELLAS","Urban","Four-Way Intersection","US-19 SR-55","CR-816","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"April","Saturday","Clear","Dark - Lighted",28.0936,-82.7394
+"239",120909,"FLORIDA","LARGO","PINELLAS","Urban","T-Intersection","SR-686","ALT KEENE","Curb",1,0,1,1,0,0,0,2,2,"April","Friday","Cloudy","Dark - Lighted",27.9167,-82.7689
+"240",120930,"FLORIDA","TARPON SPRINGS","PINELLAS","Urban","Not an Intersection","US-19","","Fell/jumped from Vehicle",1,0,2,2,0,0,0,3,3,"May","Sunday","Clear","Daylight",28.1241,-82.7399
+"241",120972,"FLORIDA","Not Applicable","PINELLAS","Urban","Not an Intersection","US-19","","Motor Vehicle in Transport",1,1,4,4,0,0,0,7,7,"May","Saturday","Clear","Dark - Not Lighted",28.1019,-82.7396
+"242",120980,"FLORIDA","SAINT PETERSBURG","PINELLAS","Rural","Not an Intersection","6TH ST","","Curb",1,0,1,1,0,0,0,1,1,"May","Sunday","Clear","Dark - Lighted",27.731,-82.6406
+"243",121014,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","SR-686","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Tuesday","Clear","Dark - Lighted",27.9161,-82.7165
+"244",121034,"FLORIDA","LARGO","PINELLAS","Urban","Four-Way Intersection","US-19","8TH AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Thursday","Clear","Daylight",27.9093,-82.7877
+"245",121097,"FLORIDA","Not Applicable","PINELLAS","Rural","T-Intersection","US-19","ESTANCIA BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Friday","Clear","Daylight",28.0292,-82.738
+"246",121106,"FLORIDA","SOUTH PASADENA","PINELLAS","Urban","Four-Way Intersection","SR-693","SAILBOAT KEY BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"June","Friday","Clear","Daylight",27.7481,-82.7452
+"247",121190,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","M L KING ST","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Monday","Clear","Dark - Lighted",27.7502,-82.6465
+"248",121231,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SUNSET POINT RD","","Pedestrian",1,1,1,1,0,1,1,1,1,"March","Saturday","Cloudy","Dusk",27.99,-82.755
+"249",121251,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Four-Way Intersection","70TH AVE","50TH ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"June","Thursday","Rain","Daylight",27.8355,-82.7019
+"250",121264,"FLORIDA","SAINT PETERSBURG","PINELLAS","Rural","Not an Intersection","16TH ST","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Thursday","Clear","Daylight",27.7916,-82.6549
+"251",121269,"FLORIDA","Unknown","PINELLAS","Rural","Four-Way Intersection","SR-686","58TH ST","Pedestrian",1,0,1,1,0,1,1,1,1,"June","Tuesday","Clear","Dark - Not Lighted",27.9161,-82.7135
+"252",121292,"FLORIDA","LARGO","PINELLAS","Urban","Not an Intersection","SR-501","","Pedestrian",1,0,1,1,0,1,1,2,2,"June","Saturday","Clear","Dark - Not Lighted",27.8923,-82.7458
+"253",121362,"FLORIDA","Not Applicable","PINELLAS","Rural","Four-Way Intersection","CR-681","47TH AVE","Motor Vehicle in Transport",1,1,3,2,1,0,0,3,3,"June","Saturday","Clear","Dark - Lighted",27.815,-82.6713
+"254",121380,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"June","Tuesday","Clear","Dark - Lighted",27.8016,-82.6794
+"255",121387,"FLORIDA","SEMINOLE","PINELLAS","Rural","Not an Intersection","CR-694","","Curb",1,1,1,1,0,0,0,1,1,"June","Tuesday","Clear","Dark - Not Lighted",27.8419,-82.7954
+"256",121404,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","I-275","","Motor Vehicle in Transport",3,1,2,2,0,0,0,5,5,"July","Friday","Clear","Dark - Lighted",27.9152,-82.6187
+"257",121504,"FLORIDA","Not Applicable","PINELLAS","Urban","Not an Intersection","SR-600","","Immersion or Partial Immersion",3,1,1,1,0,0,0,3,3,"March","Thursday","Clear","Dark - Not Lighted",27.8642,-82.6399
+"258",121506,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SR-60","","Pedestrian",1,0,2,2,0,1,1,4,4,"June","Tuesday","Cloudy","Dark - Lighted",27.9608,-82.7897
+"259",121510,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Not an Intersection","SR-55","","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"July","Tuesday","Clear","Dark - Lighted",27.8545,-82.6948
+"260",121565,"FLORIDA","CLEARWATER","PINELLAS","Urban","Four-Way Intersection","S BELCHER RD","GULF TO BAY BLVD","Motor Vehicle in Transport",1,1,3,3,0,0,0,3,3,"June","Tuesday","Clear","Dark - Lighted",27.9605,-82.7461
+"261",121597,"FLORIDA","SAINT PETE BEACH","PINELLAS","Urban","Not an Intersection","75TH AVE","SUNSET WAY","Curb",1,1,1,1,0,0,0,2,2,"July","Thursday","Clear","Dark - Lighted",27.7406,-82.7533
+"262",121630,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","54TH AVE","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"August","Sunday","Rain","Daylight",27.8213,-82.6399
+"263",121633,"FLORIDA","DUNEDIN","PINELLAS","Urban","Not an Intersection","CURLEW RD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"August","Friday","Cloudy","Daylight",28.0523,-82.7772
+"264",121696,"FLORIDA","Not Applicable","PINELLAS","Rural","T-Intersection","KERNWOOD CT","KNOB VIEW WAY","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"July","Saturday","Clear","Dark - Lighted",28.1265,-82.7121
+"265",121744,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","US-19 NORTH","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"August","Wednesday","Clear","Daylight",27.9465,-82.7301
+"266",121779,"FLORIDA","Not Applicable","PINELLAS","Rural","Four-Way Intersection","SR-586","COUNTRYSIDE BOULEVARD","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"August","Monday","Clear","Daylight",28.049,-82.7183
+"267",121784,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","I-275","","Rollover/Overturn",1,0,1,1,0,0,0,2,2,"April","Monday","Clear","Daylight",27.8136,-82.6645
+"268",121790,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","DR MARTIN LUTHER KING JR ST","","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"April","Tuesday","Clear","Dark - Lighted",27.7545,-82.6465
+"269",121794,"FLORIDA","Not Applicable","PINELLAS","Rural","Four-Way Intersection","28TH ST","41ST AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Tuesday","Clear","Dark - Not Lighted",27.8092,-82.6713
+"270",121809,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","SR-686","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Tuesday","Clear","Dark - Lighted",27.9161,-82.7162
+"271",121810,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not Reported","34TH ST","5TH AVE","Non-Motorist on Personal Conveyance",1,0,1,1,0,1,1,1,1,"August","Monday","Clear","Dark - Lighted",27.7771,-82.6793
+"272",121811,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SR-699","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Wednesday","Clear","Daylight",27.9428,-82.8359
+"273",121827,"FLORIDA","LARGO","PINELLAS","Rural","Four-Way Intersection","CR-321","8TH AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Friday","Clear","Daylight",27.9094,-82.7963
+"274",121852,"FLORIDA","TREASURE ISLAND","PINELLAS","Trafficway Not in State Inventory","Not an Intersection","BAYSHORE BLVD","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Friday","Clear","Daylight",27.7457,-82.7586
+"275",121867,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","T-Intersection","DR MARTIN LUTHER KING JR ST","JAMES AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Saturday","Clear","Dark - Lighted",27.7598,-82.6466
+"276",121911,"FLORIDA","KENNETH CITY","PINELLAS","Urban","Not an Intersection","49TH AVE","","Fell/jumped from Vehicle",1,0,1,1,0,0,0,3,3,"May","Sunday","Clear","Daylight",27.8159,-82.7195
+"277",121917,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","SR-600","","Rollover/Overturn",1,0,3,3,0,0,0,3,3,"September","Friday","Cloudy","Daylight",27.8732,-82.6055
+"278",121962,"FLORIDA","PINELLAS PARK","PINELLAS","Rural","T-Intersection","SR-694","40TH ST","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"August","Sunday","Clear","Dark - Lighted",27.8393,-82.6878
+"279",121986,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","CR-611","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Monday","Clear","Daylight",27.9203,-82.6985
+"280",122053,"FLORIDA","DUNEDIN","PINELLAS","Urban","Not an Intersection","PATRICIA AVE","","Pedestrian",1,0,1,1,0,1,1,2,2,"May","Saturday","Clear","Daylight",28.016,-82.7756
+"281",122054,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","I-275 RAMP","","Tree (Standing Only)",1,0,1,1,0,0,0,2,2,"September","Thursday","Cloudy","Daylight",27.7583,-82.6753
+"282",122057,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","I-275 RAMP","ULMERTON RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"September","Monday","Clear","Daylight",27.8974,-82.6413
+"283",122060,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","18TH AVE","","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Sunday","Clear","Dark - Lighted",27.7519,-82.6767
+"284",122078,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","CR-296","109TH AVE","Motor Vehicle in Transport",3,1,2,2,0,0,0,3,3,"September","Wednesday","Clear","Dark - Lighted",27.8724,-82.767
+"285",122097,"FLORIDA","Not Applicable","PINELLAS","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Saturday","Clear","Dark - Lighted",27.8175,-82.6795
+"286",122122,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SR-60","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Sunday","Clear","Dark - Lighted",27.9606,-82.7675
+"287",122133,"FLORIDA","CLEARWATER","PINELLAS","Urban","T-Intersection","DREW ST","BETTY LN N","Pedalcyclist",1,0,1,1,0,1,1,1,1,"September","Saturday","Clear","Daylight",27.9681,-82.7843
+"288",122137,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SR-60","SKY HARBOR DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"September","Saturday","Clear","Dark - Lighted",27.9606,-82.7228
+"289",122138,"FLORIDA","LARGO","PINELLAS","Urban","Not an Intersection","SR-688 ULMERTON RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"September","Friday","Clear","Daylight",27.8942,-82.7581
+"290",122164,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","5TH AVE","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Saturday","Clear","Dark - Lighted",27.7773,-82.6693
+"291",122167,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Four-Way Intersection","70TH AVE","40TH LANE","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"September","Friday","Clear","Daylight",27.8355,-82.6877
+"292",122237,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","CR-611","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Tuesday","Clear","Dark - Lighted",27.8258,-82.6997
+"293",122247,"FLORIDA","GULFPORT","PINELLAS","Rural","Four-Way Intersection","CR-611","JERSEY AVE","Fell/jumped from Vehicle",1,0,2,2,0,0,0,2,2,"September","Thursday","Rain","Dark - Lighted",27.7596,-82.6998
+"294",122248,"FLORIDA","KENNETH CITY","PINELLAS","Urban","Not an Intersection","54TH AVE","","Pedestrian",1,0,2,2,0,1,1,4,4,"October","Thursday","Cloudy","Dark - Lighted",27.821,-82.709
+"295",122255,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","SR-60","","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Thursday","Rain","Dark - Lighted",27.9604,-82.7447
+"296",122283,"FLORIDA","CLEARWATER","PINELLAS","Urban","T-Intersection","GULF BAY AVE","DAMASCUS RD","Motor Vehicle in Transport",1,0,4,4,0,0,0,11,11,"September","Sunday","Clear","Dusk",27.9611,-82.6981
+"297",122287,"FLORIDA","DUNEDIN","PINELLAS","Urban","Four-Way Intersection","SR-586","US-19","Curb",1,1,1,1,0,0,0,1,1,"October","Sunday","Clear","Dark - Lighted",28.0496,-82.7805
+"298",122294,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","4TH ST","","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"October","Saturday","Clear","Dark - Lighted",27.7935,-82.6385
+"299",122349,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","I-275","","Guardrail Face",1,1,1,1,0,0,0,1,1,"October","Wednesday","Clear","Dark - Lighted",27.8505,-82.6636
+"300",122381,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","49TH ST","","Curb",1,1,1,1,0,0,0,1,1,"October","Friday","Clear","Dark - Lighted",27.7934,-82.7006
+"301",122407,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","I-175","","Concrete Traffic Barrier",1,1,1,1,0,0,0,2,2,"November","Sunday","Clear","Daylight",27.7683,-82.6577
+"302",122408,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","9TH AVE","","Motor Vehicle in Transport",1,0,2,2,0,1,1,3,3,"November","Tuesday","Clear","Daylight",27.7809,-82.693
+"303",122434,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","I-275","","Rollover/Overturn",1,0,2,2,0,0,0,2,2,"November","Tuesday","Clear","Daylight",27.716,-82.6793
+"304",122606,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Four-Way Intersection","66TH ST","30TH AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Monday","Clear","Dark - Lighted",27.799,-82.7284
+"305",122607,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Unknown","34TH ST","15TH AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Friday","Clear","Dusk",27.7557,-82.6793
+"306",122638,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","I-275","","Guardrail Face",1,1,1,1,0,0,0,2,2,"December","Monday","Clear","Dark - Lighted",27.7855,-82.6611
+"307",122648,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","54TH AVE","","Tree (Standing Only)",1,1,1,1,0,0,0,3,3,"December","Tuesday","Clear","Dark - Lighted",27.7189,-82.6838
+"308",122658,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","US-19 N","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Saturday","Clear","Dark - Lighted",28.1005,-82.7396
+"309",122723,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Four-Way Intersection","5TH AVE","29TH ST","Pedestrian",1,1,1,1,0,1,1,1,1,"December","Saturday","Clear","Dusk",27.7772,-82.6726
+"310",122749,"FLORIDA","CLEARWATER","PINELLAS","Urban","Four-Way Intersection","KEENE RD","DRUID RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Wednesday","Clear","Daylight",27.9569,-82.7625
+"311",122786,"FLORIDA","Not Applicable","PINELLAS","Rural","Not an Intersection","CR-296","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Tuesday","Clear","Dark - Lighted",27.8651,-82.7792
+"312",122853,"FLORIDA","TARPON SPRINGS","PINELLAS","Urban","Not an Intersection","MARTIN LUTHER KING JR DR","","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Friday","Clear","Dark - Lighted",28.1413,-82.742
+"313",122864,"FLORIDA","LARGO","PINELLAS","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Monday","Clear","Dark - Lighted",27.913,-82.7298
+"314",122937,"FLORIDA","Not Applicable","PINELLAS","Rural","T-Intersection","28TH ST","50TH AVE","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"June","Wednesday","Cloudy","Daylight",27.8174,-82.6713
+"315",122969,"FLORIDA","CLEARWATER","PINELLAS","Urban","Not an Intersection","FAIRMONT ST","","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"December","Thursday","Clear","Dark - Lighted",27.9827,-82.7902
+"316",122970,"FLORIDA","CLEARWATER","PINELLAS","Urban","Four-Way Intersection","MISSOURI AVE","JEFFORDS ST","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Thursday","Clear","Daylight",27.9535,-82.7875
+"317",122971,"FLORIDA","SEMINOLE","PINELLAS","Urban","Not an Intersection","SR-66","","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"December","Wednesday","Clear","Dark - Lighted",27.813,-82.7875
+"318",122987,"FLORIDA","KENNETH CITY","PINELLAS","Rural","Not an Intersection","66TH ST","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Saturday","Clear","Dark - Lighted",27.8148,-82.7284
+"319",123033,"FLORIDA","SAINT PETERSBURG","PINELLAS","Rural","Not an Intersection","7TH ST","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Tuesday","Clear","Dusk",27.7881,-82.6425
+"320",123039,"FLORIDA","PINELLAS PARK","PINELLAS","Rural","T-Intersection","SR-693","90TH AVE","Motor Vehicle in Transport",2,0,2,2,0,0,0,4,4,"November","Friday","Clear","Daylight",27.8537,-82.7286
+"321",123044,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Four-Way Intersection","122ND AVE","46TH ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"December","Tuesday","Clear","Daylight",27.8828,-82.6962
+"322",123050,"FLORIDA","PINELLAS PARK","PINELLAS","Urban","Not an Intersection","US-19","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"October","Friday","Clear","Dark - Not Lighted",27.8518,-82.6926
+"323",123053,"FLORIDA","PINELLAS PARK","PINELLAS","Rural","Four-Way Intersection","SR-694","43RD ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"October","Wednesday","Clear","Daylight",27.8391,-82.6918
+"324",123054,"FLORIDA","PINELLAS PARK","PINELLAS","Rural","Not an Intersection","SR-694","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Thursday","Clear","Dark - Not Lighted",27.8391,-82.6956
+"325",123087,"FLORIDA","SAINT PETERSBURG","PINELLAS","Urban","Not an Intersection","16TH ST","","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Wednesday","Clear","Dark - Lighted",27.7569,-82.6548
+"326",120047,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-52","SECRETARIAT ROAD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"January","Monday","Clear","Daylight",28.3226,-82.458
+"327",120072,"FLORIDA","Not Applicable","PASCO","Rural","T-Intersection","US-41","LEONARD ROAD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"January","Friday","Clear","Daylight",28.1888,-82.4663
+"328",120085,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","KITTEN TRL","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"January","Wednesday","Cloudy","Daylight",28.3736,-82.623
+"329",120127,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","US-301","CHANCEY RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"January","Tuesday","Cloudy","Daylight",28.2081,-82.1853
+"330",120136,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","CR-1","","Utility Pole/Light Support",2,1,1,1,0,0,0,2,2,"January","Saturday","Rain","Dark - Not Lighted",28.3638,-82.6661
+"331",120143,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","SR-54","TRINITY BLVD","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"January","Wednesday","Rain","Daylight",28.1905,-82.614
+"332",120169,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-1","","Guardrail Face",1,0,1,1,0,0,0,1,1,"February","Wednesday","Clear","Dusk",28.3983,-82.6583
+"333",120176,"FLORIDA","PORT RICHEY","PASCO","Urban","Not an Intersection","US-19","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"February","Monday","Clear","Dark - Lighted",28.2829,-82.7158
+"334",120359,"FLORIDA","Not Applicable","PASCO","Urban","T-Intersection","NEW YORK AVE","HICKS ROAD","Other Object (Not Fixed)",1,1,1,1,0,0,0,1,1,"February","Sunday","Clear","Dark - Not Lighted",28.375,-82.6497
+"335",120446,"FLORIDA","Not Applicable","PASCO","Urban","Four-Way Intersection","US-19","SCENIC DR","Pedalcyclist",1,0,1,1,0,1,1,1,1,"January","Friday","Clear","Dark - Lighted",28.298,-82.7069
+"336",120447,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"January","Thursday","Clear","Dark - Lighted",28.1854,-82.7401
+"337",120466,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-52","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"January","Friday","Clear","Dark - Not Lighted",28.3391,-82.6188
+"338",120469,"FLORIDA","Not Applicable","PASCO","Urban","Four-Way Intersection","US-19","BONITA RD","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Saturday","Clear","Dark - Lighted",28.188,-82.74
+"339",120474,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","SR-54","US-41","Pedestrian",1,0,1,1,0,1,1,1,1,"January","Saturday","Rain","Dark - Lighted",28.1916,-82.4655
+"340",120490,"FLORIDA","ZEPHYRHILLS","PASCO","Urban","T-Intersection","COPELAND DR","CR-535","Pedalcyclist",1,0,1,1,0,1,1,1,1,"March","Tuesday","Clear","Daylight",28.2088,-82.1661
+"341",120496,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","5TH ST","ESTATE DR","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Wednesday","Clear","Daylight",28.2299,-82.7109
+"342",120671,"FLORIDA","Not Applicable","PASCO","Urban","T-Intersection","US-41","LEONARD RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"April","Friday","Clear","Daylight",28.1886,-82.4663
+"343",120698,"FLORIDA","Not Applicable","PASCO","Rural","T-Intersection","SR-52","POINT BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"March","Wednesday","Clear","Daylight",28.3313,-82.6366
+"344",120734,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","PASCO RD","","Fence",1,0,1,1,0,0,0,1,1,"April","Sunday","Clear","Daylight",28.1891,-82.3778
+"345",120758,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","US-41","SWANS LANDING DR","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"April","Tuesday","Clear","Daylight",28.2092,-82.4619
+"346",120779,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-581","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"April","Friday","Clear","Dark - Not Lighted",28.1931,-82.3534
+"347",120811,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-54","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"April","Saturday","Clear","Daylight",28.186,-82.407
+"348",120860,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-41","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"April","Sunday","Clear","Daylight",28.407,-82.2257
+"349",120862,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","US-19 ALT SR-595","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"April","Thursday","Clear","Daylight",28.178,-82.7448
+"350",120880,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-52","","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Monday","Clear","Dark - Not Lighted",28.329,-82.5841
+"351",120982,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Thursday","Clear","Dark - Lighted",28.2241,-82.7339
+"352",120983,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","STARKEY BLVD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"May","Wednesday","Clear","Dark - Not Lighted",28.2287,-82.644
+"353",120984,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","ZIMMERMAN RD","","Fell/jumped from Vehicle",1,0,1,1,0,0,0,2,2,"May","Monday","Clear","Dark - Not Lighted",28.3296,-82.691
+"354",121006,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","COUNTY LINE RD","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Wednesday","Clear","Daylight",28.1712,-82.3925
+"355",121085,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-577","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"May","Saturday","Clear","Daylight",28.3905,-82.2911
+"356",121092,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","SR-54","CR-579","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"May","Thursday","Clear","Daylight",28.2188,-82.2462
+"357",121112,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"May","Tuesday","Clear","Daylight",28.3441,-82.6991
+"358",121152,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"May","Sunday","Clear","Daylight",28.3221,-82.6992
+"359",121193,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","Four-Way Intersection","US-19","MARINE PKWY","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"April","Sunday","Clear","Dark - Lighted",28.2322,-82.7297
+"360",121210,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Friday","Clear","Dark - Lighted",28.3241,-82.6992
+"361",121214,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-52","","Curb",1,0,1,1,0,0,0,1,1,"June","Thursday","Clear","Daylight",28.3317,-82.6336
+"362",121220,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"June","Saturday","Cloudy","Dark - Lighted",28.3656,-82.6918
+"363",121246,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,5,5,0,0,0,5,5,"June","Wednesday","Clear","Daylight",28.2278,-82.361
+"364",121288,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","WINSOR MILL RD","Pedalcyclist",1,0,1,1,0,1,1,1,1,"May","Monday","Clear","Dark - Lighted",28.3613,-82.6955
+"365",121364,"FLORIDA","Not Applicable","PASCO","Urban","Four-Way Intersection","CR-1","NEW YORK AVE","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"June","Saturday","Clear","Daylight",28.3751,-82.6584
+"366",121453,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","COUNTRY POINT BLVD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"July","Friday","Clear","Daylight",28.2198,-82.3044
+"367",121467,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","FLORRIE  MAE LANE","","Other Post, Other Pole, or Other Support",1,0,1,1,0,0,0,1,1,"July","Wednesday","Clear","Daylight",28.4217,-82.2171
+"368",121475,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","CR-1","SR-52","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"July","Friday","Cloudy","Daylight",28.331,-82.6662
+"369",121536,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","SR-581","SR-54","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"July","Friday","Clear","Daylight",28.2361,-82.3498
+"370",121550,"FLORIDA","Not Applicable","PASCO","Rural","T-Intersection","SR-52","HAYS RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"July","Thursday","Cloudy","Daylight",28.3299,-82.569
+"371",121552,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","CR-1","","Guardrail Face",1,1,1,1,0,0,0,1,1,"July","Sunday","Clear","Dark - Not Lighted",28.2402,-82.6741
+"372",121557,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","Four-Way Intersection","US-19","MAIN ST","Motor Vehicle in Transport",1,1,5,4,1,0,0,4,4,"July","Sunday","Rain","Dark - Lighted",28.2501,-82.7276
+"373",121572,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-54","","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"July","Monday","Rain","Daylight",28.2204,-82.2713
+"374",121623,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","Four-Way Intersection","US-19","MAIN ST","Pedestrian",1,0,1,1,0,1,1,2,2,"July","Wednesday","Clear","Dark - Lighted",28.2512,-82.7278
+"375",121640,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-55","","Pedestrian",1,0,1,1,0,1,1,1,1,"July","Tuesday","Clear","Dark - Lighted",28.3427,-82.6991
+"376",121641,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-35","","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"August","Tuesday","Rain","Daylight",28.3432,-82.1713
+"377",121642,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-52","","Other Post, Other Pole, or Other Support",1,0,1,1,0,0,0,1,1,"July","Saturday","Cloudy","Daylight",28.3243,-82.3483
+"378",121645,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-55","","Pedalcyclist",1,0,1,1,0,1,1,2,2,"August","Wednesday","Clear","Dark - Lighted",28.3434,-82.6991
+"379",121746,"FLORIDA","Not Applicable","PASCO","Urban","T-Intersection","US-41","GATOR LANE","Motor Vehicle in Transport",1,0,3,3,0,0,0,5,5,"August","Thursday","Clear","Daylight",28.2623,-82.476
+"380",121748,"FLORIDA","Not Applicable","PASCO","Rural","T-Intersection","CR-579","PROSPECT RD","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"August","Wednesday","Clear","Dark - Not Lighted",28.3147,-82.2447
+"381",121860,"FLORIDA","Not Applicable","PASCO","Urban","Four-Way Intersection","US-98","TRILBY RD","Motor Vehicle in Transport",2,0,2,2,0,0,0,3,3,"August","Thursday","Clear","Daylight",28.4634,-82.1932
+"382",121864,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-301","JORDAN RD","Motor Vehicle in Transport",1,1,2,2,0,0,0,7,7,"August","Saturday","Clear","Daylight",28.3938,-82.1951
+"383",121865,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-587","PEGGY MAC LN","Non-Motorist on Personal Conveyance",1,0,1,1,0,1,1,1,1,"August","Wednesday","Clear","Dark - Not Lighted",28.2589,-82.6792
+"384",121866,"FLORIDA","Not Applicable","PASCO","Urban","Not an Intersection","NEW YORK AVE","","Pedestrian",1,0,1,1,0,2,2,1,1,"August","Tuesday","Clear","Dark - Not Lighted",28.3752,-82.665
+"385",121886,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-54","","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"September","Friday","Rain","Daylight",28.245,-82.2281
+"386",121980,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","CR-524","","Curb",1,1,1,1,0,0,0,1,1,"September","Wednesday","Cloudy","Dark - Not Lighted",28.2785,-82.6469
+"387",121998,"FLORIDA","PORT RICHEY","PASCO","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Sunday","Clear","Dark - Lighted",28.2774,-82.7193
+"388",122024,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Monday","Clear","Dark - Lighted",28.2435,-82.7276
+"389",122026,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","CR-587","STARKEY BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Thursday","Clear","Daylight",28.2586,-82.6507
+"390",122058,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","US-19","SR-52","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Monday","Clear","Dark - Not Lighted",28.3311,-82.6991
+"391",122118,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Sunday","Clear","Dark - Lighted",28.3154,-82.6991
+"392",122175,"FLORIDA","Not Applicable","PASCO","Rural","T-Intersection","MAKO DRIVE","OLD DIXIE HIGHWAY","Fell/jumped from Vehicle",1,0,1,1,0,0,0,4,4,"October","Monday","Cloudy","Daylight",28.385,-82.6879
+"393",122329,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Tuesday","Clear","Dark - Lighted",28.2509,-82.7276
+"394",122382,"FLORIDA","Not Applicable","PASCO","Rural","Four-Way Intersection","US-19","FLORA AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Friday","Clear","Daylight",28.177,-82.7405
+"395",122394,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","Not an Intersection","US-19","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"November","Thursday","Clear","Dark - Lighted",28.2542,-82.7276
+"396",122429,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-54","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"November","Sunday","Clear","Dusk",28.1937,-82.5887
+"397",122468,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","BOUGENVILLE DR","","Other Fixed Object",1,1,1,1,0,0,0,1,1,"November","Sunday","Clear","Dark - Not Lighted",28.3118,-82.6938
+"398",122469,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","PERRINE RANCH RD","","Ditch",1,1,1,1,0,0,0,1,1,"November","Saturday","Clear","Dark - Lighted",28.1953,-82.706
+"399",122475,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SHADY HILLS RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Sunday","Clear","Dawn",28.3398,-82.5447
+"400",122492,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","US-19","","Pedestrian",1,0,2,2,0,1,1,3,3,"November","Friday","Clear","Dark - Lighted",28.2932,-82.7095
+"401",122556,"FLORIDA","ZEPHYRHILLS","PASCO","Urban","Not an Intersection","39444 S AVE","AIRPORT RD","Pedalcyclist",1,0,1,1,0,1,1,2,2,"November","Thursday","Clear","Dusk",28.23,-82.1673
+"402",122583,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"December","Monday","Clear","Daylight",28.3196,-82.3248
+"403",122591,"FLORIDA","Not Applicable","PASCO","Urban","Four-Way Intersection","US-19","BEACH BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Sunday","Clear","Dark - Lighted",28.3423,-82.6993
+"404",122666,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","T-Intersection","BOUGENVILLE DR","HIBISCUS DR","Fell/jumped from Vehicle",1,0,1,1,0,0,0,1,1,"December","Friday","Clear","Daylight",28.2307,-82.7274
+"405",122722,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","SR-34","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"December","Monday","Clear","Daylight",28.1987,-82.399
+"406",122867,"FLORIDA","Not Applicable","PASCO","Rural","Not an Intersection","MONTEVERDE DR","","Motor Vehicle in Transport",3,1,2,2,0,0,0,5,5,"December","Saturday","Clear","Dark - Not Lighted",28.4132,-82.5433
+"407",123120,"FLORIDA","NEW PORT RICHEY","PASCO","Urban","T-Intersection","US-19","AVERY RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"December","Thursday","Clear","Daylight",28.2623,-82.7277
+"408",120040,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","HAYMAN ROAD","","Embankment",1,0,1,1,0,0,0,1,1,"January","Saturday","Clear","Daylight",28.4519,-82.3561
+"409",120080,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","ANDERSON SNOW ROAD","","Motor Vehicle in Transport",1,1,4,4,0,0,0,4,4,"January","Friday","Clear","Daylight",28.4415,-82.486
+"410",120104,"FLORIDA","Not Applicable","HERNANDO","Urban","Not an Intersection","IVYDALE RD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"March","Tuesday","Clear","Daylight",28.4572,-82.6074
+"411",120122,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","OSOWAW BLVD","","Rollover/Overturn",1,0,2,2,0,0,0,2,2,"February","Saturday","Clear","Daylight",28.3994,-82.66
+"412",120422,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","MARINER BLVD","","Motor Vehicle in Transport",1,0,3,3,0,0,0,6,6,"January","Sunday","Clear","Daylight",28.4926,-82.5406
+"413",120665,"FLORIDA","Not Applicable","HERNANDO","Urban","Not an Intersection","NEFF LAKE RD","","Pedestrian",1,0,1,1,0,4,4,1,1,"April","Friday","Clear","Daylight",28.4818,-82.3195
+"414",120715,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","MARINER BLVD","LANDOVER BLVD","Motor Vehicle in Transport",1,0,5,5,0,0,0,7,7,"April","Friday","Clear","Daylight",28.4833,-82.5436
+"415",121008,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","SR-50","CR-50","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Thursday","Clear","Dark - Not Lighted",28.5409,-82.462
+"416",121017,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","SR-700","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"May","Tuesday","Clear","Dark - Not Lighted",28.5233,-82.2537
+"417",121116,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","LINDEN DR","","Culvert",1,1,1,1,0,0,0,1,1,"May","Friday","Clear","Dark - Lighted",28.4748,-82.5473
+"418",121148,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","CR-597","","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"May","Wednesday","Clear","Dark - Not Lighted",28.5356,-82.6159
+"419",121490,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","SR-50","HIGHPOINT BLVD","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"June","Wednesday","Clear","Daylight",28.5334,-82.5284
+"420",121546,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","US-98","CR-491","Motor Vehicle in Transport",2,0,2,2,0,0,0,3,3,"July","Friday","Cloudy","Daylight",28.6509,-82.4469
+"421",121721,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","SR-50","CR-484","Motor Vehicle in Transport",1,0,3,3,0,0,0,6,6,"August","Wednesday","Cloudy","Daylight",28.541,-82.462
+"422",121820,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","HARROW RD","ELK LN","Other Fixed Object",1,1,1,1,0,0,0,1,1,"August","Thursday","Clear","Daylight",28.4777,-82.5838
+"423",121856,"FLORIDA","Not Applicable","HERNANDO","Urban","Not an Intersection","US-19","","Parked Motor Vehicle (Not in Transport)",1,1,2,1,1,0,0,2,2,"August","Tuesday","Clear","Daylight",28.4769,-82.6125
+"424",122016,"FLORIDA","Not Applicable","HERNANDO","Urban","Not an Intersection","LAKE LINDSEY RD","","Tree (Standing Only)",1,0,1,1,0,0,0,2,2,"September","Thursday","Cloudy","Daylight",28.6471,-82.2884
+"425",122038,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,6,6,0,0,0,10,10,"September","Thursday","Cloudy","Daylight",28.5421,-82.2367
+"426",122056,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","KNUCKEY RD","","Rollover/Overturn",2,0,1,1,0,0,0,2,2,"September","Tuesday","Clear","Dark - Not Lighted",28.6356,-82.5458
+"427",122453,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","US-301","BUTTERNUT DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Friday","Clear","Daylight",28.553,-82.1595
+"428",122484,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","SR-50","COASTAL BLVD","Pedestrian",1,0,1,1,0,1,1,1,1,"November","Monday","Rain","Dark - Lighted",28.5337,-82.5052
+"429",122507,"FLORIDA","Not Applicable","HERNANDO","Rural","Not an Intersection","US-19","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"November","Wednesday","Clear","Dark - Not Lighted",28.5324,-82.5675
+"430",122938,"FLORIDA","Not Applicable","HERNANDO","Rural","Four-Way Intersection","US-19","CORTEZ BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"July","Thursday","Clear","Dark - Lighted",28.5186,-82.5715
+"431",120157,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-495","","Mail Box",1,0,1,1,0,0,0,1,1,"January","Sunday","Clear","Dark - Not Lighted",28.9282,-82.5924
+"432",120464,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CORBETT AVE","","Pedestrian",1,0,1,1,0,1,1,0,0,"February","Tuesday","Clear","Dark - Not Lighted",28.7988,-82.5083
+"433",120508,"FLORIDA","Not Applicable","CITRUS","Urban","Not an Intersection","INDEPENDENCE HIGHWAY","","Pedalcyclist",1,1,1,1,0,2,2,1,1,"March","Sunday","Clear","Daylight",28.8462,-82.3655
+"434",120804,"FLORIDA","CRYSTAL RIVER","CITRUS","Rural","T-Intersection","US-19","W POWER LINE ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"April","Thursday","Clear","Daylight",28.9595,-82.6303
+"435",120833,"FLORIDA","Not Applicable","CITRUS","Urban","Not an Intersection","SR-44","","Rollover/Overturn",2,1,2,2,0,0,0,4,4,"April","Saturday","Clear","Dark - Not Lighted",28.8534,-82.4977
+"436",120836,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","US-98","LARUE DENISE TER","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Wednesday","Clear","Dark - Not Lighted",28.9359,-82.6187
+"437",120865,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Sunday","Clear","Dark - Not Lighted",28.9555,-82.6283
+"438",121009,"FLORIDA","Not Applicable","CITRUS","Urban","Not an Intersection","US-19","","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"April","Tuesday","Clear","Daylight",28.6955,-82.5525
+"439",121027,"FLORIDA","Not Applicable","CITRUS","Urban","Not an Intersection","W GROVER CLEVELAND BLVD","","Pedestrian",1,0,1,1,0,1,1,2,2,"May","Saturday","Clear","Dark - Not Lighted",28.8037,-82.566
+"440",121028,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-480","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"May","Monday","Clear","Daylight",28.7282,-82.3084
+"441",121241,"FLORIDA","Not Applicable","CITRUS","Urban","Four-Way Intersection","US-41","COUNTRY CLUB WAY","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"June","Wednesday","Clear","Dark - Lighted",28.9981,-82.4433
+"442",121344,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-488","","Pedestrian",1,0,1,1,0,1,1,1,1,"June","Monday","Clear","Dark - Not Lighted",29.04,-82.4851
+"443",121458,"FLORIDA","Not Applicable","CITRUS","Rural","Four-Way Intersection","US-41","CITRUS SPRINGS BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"July","Wednesday","Clear","Daylight",29.0131,-82.4538
+"444",121459,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"July","Thursday","Clear","Daylight",29.0237,-82.6692
+"445",121468,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-488","","Traffic Sign Support",1,0,1,1,0,0,0,1,1,"July","Wednesday","Clear","Dark - Not Lighted",28.9701,-82.6228
+"446",121509,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-491","HOPKINS LN","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"July","Wednesday","Clear","Daylight",28.749,-82.4519
+"447",121561,"FLORIDA","Not Applicable","CITRUS","Rural","Four-Way Intersection","CR-491","OAK PARK BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"July","Wednesday","Clear","Daylight",28.6984,-82.4514
+"448",121720,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-490","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Tuesday","Rain","Daylight",28.8183,-82.5585
+"449",121734,"FLORIDA","Not Applicable","CITRUS","Urban","Not an Intersection","SR-44 E","","Motor Vehicle in Transport",1,0,2,2,0,0,0,1,1,"August","Thursday","Clear","Daylight",28.8446,-82.2826
+"450",121875,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","CR-495","WAHOO TRAIL","Fence",1,0,1,1,0,0,0,1,1,"July","Friday","Clear","Dark - Not Lighted",29.0299,-82.5661
+"451",122277,"FLORIDA","Not Applicable","CITRUS","Rural","T-Intersection","SR-44","TIGHE DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"October","Monday","Clear","Daylight",28.8548,-82.3921
+"452",122504,"FLORIDA","Not Applicable","CITRUS","Rural","Not an Intersection","US-19","","Ditch",1,0,1,1,0,0,0,1,1,"November","Monday","Cloudy","Daylight",28.7891,-82.5663
+"453",122927,"FLORIDA","Not Applicable","CITRUS","Rural","Four-Way Intersection","US-19","6201 SUNCOAST BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"October","Friday","Clear","Dark - Lighted",28.9526,-82.6267
+"454",120110,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","RIVER CLUB BLVD","","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"February","Monday","Cloudy","Daylight",27.4233,-82.433
+"455",120125,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","US-301","63RD AVE","Motor Vehicle in Transport",2,1,2,2,0,0,0,3,3,"February","Wednesday","Clear","Dark - Lighted",27.4291,-82.5303
+"456",120130,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","VERNA BETHANY RD","","Motor Vehicle in Transport",1,0,3,3,0,0,0,7,7,"January","Friday","Clear","Daylight",27.4268,-82.2707
+"457",120146,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","SR-70 EAST","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"February","Monday","Clear","Daylight",27.3426,-82.1544
+"458",120162,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","53RD AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"February","Sunday","Clear","Dark - Lighted",27.4477,-82.5753
+"459",120203,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","US-19","TERRA CEIA RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"March","Wednesday","Clear","Dark - Not Lighted",27.5795,-82.5781
+"460",120224,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",3,0,2,2,0,0,0,5,5,"February","Thursday","Clear","Dark - Not Lighted",27.4044,-82.4529
+"461",120420,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Pedestrian",1,0,1,1,0,1,1,6,6,"January","Sunday","Rain","Dark - Not Lighted",27.4527,-82.5753
+"462",120429,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Other Fixed Object",1,0,1,1,0,1,1,1,1,"January","Saturday","Rain","Daylight",27.3964,-82.5632
+"463",120430,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","6160 14TH ST","","Non-Motorist on Personal Conveyance",1,0,1,1,0,1,1,1,1,"January","Friday","Cloudy","Daylight",27.4314,-82.5766
+"464",120455,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","SR-64","GREYHAWK BLVD","Pedestrian",1,0,1,1,0,1,1,1,1,"February","Tuesday","Fog, Smog, Smoke","Daylight",27.4841,-82.4128
+"465",120478,"FLORIDA","Not Applicable","MANATEE","Urban","Roundabout","75TH STREET","SR-70","Curb",1,0,1,1,0,0,0,1,1,"February","Tuesday","Clear","Daylight",27.448,-82.6368
+"466",120481,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","THE PARK BLVD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"February","Tuesday","Fog, Smog, Smoke","Daylight",27.39,-82.4786
+"467",120626,"FLORIDA","Not Applicable","MANATEE","Rural","Y-Intersection","I-75","I-275","Bridge Pier or Support",1,0,1,1,0,0,0,1,1,"March","Monday","Clear","Dark - Lighted",27.4469,-82.4977
+"468",120639,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","US-41","ORLANDO AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"April","Saturday","Clear","Daylight",27.4583,-82.5753
+"469",120640,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Rollover/Overturn",1,1,2,2,0,0,0,3,3,"April","Sunday","Clear","Dark - Lighted",27.3977,-82.5635
+"470",120648,"FLORIDA","PALMETTO","MANATEE","Urban","Not an Intersection","US-301 N","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"April","Sunday","Clear","Dark - Lighted",27.4876,-82.5629
+"471",120687,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","UPPER MANATEE RIVER RD","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"April","Wednesday","Clear","Daylight",27.5061,-82.4336
+"472",120770,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","US-301","","Concrete Traffic Barrier",1,1,1,1,0,0,0,1,1,"April","Sunday","Clear","Daylight",27.485,-82.5629
+"473",120844,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","SR-78","","Traffic Sign Support",1,0,1,1,0,0,0,2,2,"April","Thursday","Clear","Dark - Not Lighted",27.3865,-82.4008
+"474",120885,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Motor Vehicle in Transport",1,1,3,3,0,0,0,5,5,"May","Friday","Clear","Dark - Lighted",27.5473,-82.5638
+"475",120891,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Utility Pole/Light Support",1,1,1,1,0,0,0,1,1,"May","Thursday","Clear","Dark - Not Lighted",27.4182,-82.5754
+"476",120927,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","I-75","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"May","Sunday","Cloudy","Dark - Not Lighted",27.4268,-82.4587
+"477",121013,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","CR-675","","Rollover/Overturn",1,0,1,1,0,0,0,2,2,"May","Sunday","Cloudy","Dark - Not Lighted",27.567,-82.3794
+"478",121018,"FLORIDA","Not Applicable","MANATEE","Rural","T-Intersection","SR-64","RYE RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"May","Thursday","Clear","Daylight",27.4816,-82.4056
+"479",121122,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","SR-70 53RD AVE/ONECO RD","","Pedalcyclist",1,0,4,4,0,1,1,5,5,"May","Thursday","Clear","Dark - Not Lighted",27.4478,-82.5466
+"480",121125,"FLORIDA","Not Applicable","MANATEE","Urban","T-Intersection","US-41 SR-55","25TH AVE","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"May","Tuesday","Clear","Dark - Lighted",27.4782,-82.563
+"481",121153,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","US-301","","Culvert",1,1,1,1,0,0,0,1,1,"June","Friday","Clear","Dark - Not Lighted",27.6433,-82.3887
+"482",121165,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","SR-64","LORRAINE ROAD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Thursday","Clear","Daylight",27.4755,-82.396
+"483",121254,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","SR-70 53RD AVE/ONECO RD","","Motor Vehicle in Transport",1,0,4,4,0,0,0,6,6,"June","Saturday","Cloudy","Daylight",27.4477,-82.5523
+"484",121274,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","US-41","60TH AVE W","Pedestrian",1,0,1,1,0,1,1,2,2,"June","Wednesday","Clear","Daylight",27.4349,-82.5754
+"485",121303,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"June","Thursday","Clear","Dusk",27.5454,-82.5643
+"486",121329,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","HONORE AVE","UNIVERSITY PKWY","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"June","Monday","Clear","Daylight",27.3885,-82.4638
+"487",121394,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","SR-93A","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"May","Thursday","Clear","Daylight",27.5967,-82.5067
+"488",121397,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","CR-6","I-75","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Friday","Clear","Daylight",27.6007,-82.5014
+"489",121426,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","3RD AVE","50TH ST","Fell/jumped from Vehicle",1,0,1,1,0,0,0,8,8,"July","Saturday","Clear","Daylight",27.5588,-82.5657
+"490",121431,"FLORIDA","WEST BRADENTON","MANATEE","Urban","Not an Intersection","SR-45","","Pedestrian",1,0,1,1,0,1,1,4,4,"July","Saturday","Clear","Daylight",27.4814,-82.5753
+"491",121450,"FLORIDA","BRADENTON","MANATEE","Rural","Not an Intersection","SR-684","","Pedalcyclist",1,1,1,1,0,1,1,1,1,"July","Sunday","Clear","Dusk",27.4617,-82.6641
+"492",121488,"FLORIDA","BRADENTON","MANATEE","Urban","Four-Way Intersection","SR-684","CAPE VISTA DR","Traffic Signal Support",1,0,1,1,0,0,0,1,1,"June","Saturday","Clear","Daylight",27.4624,-82.6158
+"493",121522,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","US-41","23RD ST E","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"July","Monday","Clear","Dark - Lighted",27.534,-82.5613
+"494",121524,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"July","Tuesday","Clear","Dark - Not Lighted",27.5054,-82.4878
+"495",121533,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Pedestrian",1,0,1,1,0,1,1,2,2,"March","Thursday","Clear","Dark - Lighted",27.4348,-82.5754
+"496",121686,"FLORIDA","WEST BRADENTON","MANATEE","Urban","Not an Intersection","US-41","","Utility Pole/Light Support",1,1,1,1,0,0,0,1,1,"August","Monday","Clear","Dark - Lighted",27.4835,-82.5632
+"497",121704,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","US-41 SR-45 14TH ST W","SR-70","Motor Vehicle in Transport",1,0,3,3,0,0,0,8,8,"August","Thursday","Cloudy","Dark - Lighted",27.4476,-82.5753
+"498",121735,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","SR-70","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"August","Thursday","Clear","Dark - Not Lighted",27.4316,-82.3847
+"499",121736,"FLORIDA","PALMETTO","MANATEE","Urban","Not an Intersection","SR-43","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"August","Thursday","Rain","Dark - Lighted",27.5214,-82.5534
+"500",121825,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","SR-70 53RD AVE/ONECO RD","22 ND ST CT","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Tuesday","Clear","Dark - Lighted",27.4475,-82.5362
+"501",121835,"FLORIDA","PALMETTO","MANATEE","Urban","Not an Intersection","US-19","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Monday","Clear","Dark - Not Lighted",27.571,-82.5728
+"502",121873,"FLORIDA","Not Applicable","MANATEE","Urban","Four-Way Intersection","US-41","51ST AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"September","Thursday","Cloudy","Dark - Not Lighted",27.4496,-82.5752
+"503",121938,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","SR-70","BETTS RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Tuesday","Clear","Dark - Not Lighted",27.3718,-82.2193
+"504",121967,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","301 BOULEVARD","9TH STREET","Pedestrian",1,0,1,1,0,1,1,3,3,"September","Saturday","Clear","Dark - Not Lighted",27.4602,-82.5548
+"505",122116,"FLORIDA","BRADENTON","MANATEE","Urban","Four-Way Intersection","SR-64 E","43RD ST","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Tuesday","Clear","Dark - Lighted",27.4983,-82.5087
+"506",122131,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","US-41","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Tuesday","Cloudy","Dark - Lighted",27.4723,-82.5753
+"507",122144,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","I-75","","Utility Pole/Light Support",1,0,1,1,0,0,0,1,1,"October","Saturday","Clear","Daylight",27.6078,-82.4961
+"508",122278,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","63RD AVE","","Curb",1,0,2,2,0,0,0,2,2,"October","Friday","Cloudy","Daylight",27.4293,-82.5467
+"509",122364,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","SR-70","LOCKWOOD RIDGE RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"November","Saturday","Clear","Dark - Lighted",27.4461,-82.5055
+"510",122399,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","SR-64","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Monday","Clear","Dark - Not Lighted",27.4719,-82.0573
+"511",122433,"FLORIDA","Not Applicable","MANATEE","Urban","Not an Intersection","M J RD","","Culvert",1,0,1,1,0,0,0,1,1,"November","Wednesday","Clear","Daylight",27.2824,-82.1939
+"512",122444,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","I-75","LINGER LODGE RD OVERPASS","Bridge Pier or Support",1,0,1,1,0,0,0,1,1,"November","Wednesday","Clear","Dark - Not Lighted",27.4277,-82.4591
+"513",122490,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","SR-64","LAKEWOOD RANCH BLVD","Motor Vehicle in Transport",1,1,2,2,0,0,0,4,4,"November","Saturday","Clear","Dark - Lighted",27.4854,-82.4337
+"514",122598,"FLORIDA","PALMETTO","MANATEE","Rural","Not an Intersection","US-41","","Other Post, Other Pole, or Other Support",1,1,1,1,0,0,0,1,1,"December","Tuesday","Fog, Smog, Smoke","Dark - Lighted",27.5851,-82.5401
+"515",122645,"FLORIDA","Not Applicable","MANATEE","Rural","Four-Way Intersection","51ST ST","26TH AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Saturday","Clear","Daylight",27.4775,-82.6123
+"516",122653,"FLORIDA","Not Applicable","MANATEE","Rural","T-Intersection","GLEN EAGLES CROSSING","THE PARK BLVD","Immersion or Partial Immersion",1,0,1,1,0,0,0,1,1,"December","Tuesday","Fog, Smog, Smoke","Dark - Lighted",27.3993,-82.4754
+"517",122851,"FLORIDA","Not Applicable","MANATEE","Rural","Not an Intersection","I-275","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"December","Friday","Clear","Dark - Lighted",27.5922,-82.6295
+"518",122884,"FLORIDA","BRADENTON","MANATEE","Rural","T-Intersection","US-41","28TH AVENUE","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"August","Wednesday","Cloudy","Daylight",27.4755,-82.5753
+"519",122913,"FLORIDA","PALMETTO","MANATEE","Urban","Four-Way Intersection","SR-45","2600 8TH AVE","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Thursday","Clear","Daylight",27.5372,-82.5728
+"520",122953,"FLORIDA","PALMETTO","MANATEE","Urban","T-Intersection","US-41","23RD ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"November","Tuesday","Clear","Dusk",27.5336,-82.5719
+"521",123116,"FLORIDA","PALMETTO","MANATEE","Rural","Four-Way Intersection","SR-45","17TH ST","Motor Vehicle in Transport",1,0,3,3,0,0,0,7,7,"June","Monday","Clear","Dark - Lighted",27.5286,-82.5729
+"522",120071,"FLORIDA","NORTH PORT","SARASOTA","Urban","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,3,3,0,0,0,6,6,"January","Sunday","Cloudy","Daylight",27.0609,-82.0859
+"523",120086,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Guardrail Face",1,0,1,1,0,0,0,1,1,"January","Sunday","Cloudy","Daylight",27.0679,-82.0937
+"524",120153,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Culvert",2,0,1,1,0,0,0,3,3,"February","Sunday","Cloudy","Daylight",27.1347,-82.4051
+"525",120197,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Rollover/Overturn",1,0,1,1,0,0,0,4,4,"March","Monday","Clear","Daylight",27.1063,-82.2987
+"526",120258,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","SR-777","","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"February","Friday","Clear","Dark - Not Lighted",26.9977,-82.2957
+"527",120399,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"March","Thursday","Clear","Daylight",27.3524,-82.4467
+"528",120434,"FLORIDA","NORTH PORT","SARASOTA","Rural","Not an Intersection","US-41","","Pedalcyclist",1,0,1,1,0,1,1,2,2,"January","Saturday","Rain","Dark - Not Lighted",27.0468,-82.3207
+"529",120438,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","US-41","","Pedestrian",1,0,1,1,0,1,1,1,1,"January","Sunday","Clear","Dark - Lighted",27.2498,-82.5136
+"530",120539,"FLORIDA","SARASOTA","SARASOTA","Urban","Four-Way Intersection","SR-780","BENEVA RD","Pedestrian",1,0,1,1,0,1,1,2,2,"January","Friday","Clear","Dark - Lighted",27.3374,-82.4973
+"531",120614,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","US-301","","Pedestrian",1,0,1,1,0,1,1,1,1,"January","Wednesday","Rain","Dark - Lighted",27.3572,-82.5303
+"532",120616,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","US-301","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"January","Sunday","Clear","Dark - Lighted",27.3425,-82.531
+"533",120622,"FLORIDA","NORTH PORT","SARASOTA","Rural","Not an Intersection","PANACEA BLVD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"April","Monday","Clear","Daylight",27.0845,-82.1198
+"534",120638,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Thursday","Clear","Dark - Not Lighted",27.0986,-82.1336
+"535",120693,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","CR-777","","Motor Vehicle in Transport",3,1,3,3,0,0,0,7,7,"March","Thursday","Clear","Dark - Not Lighted",26.9979,-82.2956
+"536",120695,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","SAWYER RD","","Tree (Standing Only)",1,1,2,1,1,0,0,1,1,"March","Friday","Cloudy","Dark - Not Lighted",27.3006,-82.4893
+"537",120702,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","LOCKWOOD RIDGE RD","","Motor Vehicle in Transport",1,0,3,3,0,0,0,4,4,"April","Thursday","Clear","Daylight",27.3546,-82.5056
+"538",120716,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","DR MLK JR WAY","","Pedestrian",1,1,1,1,0,1,1,2,2,"April","Saturday","Cloudy","Dark - Lighted",27.3597,-82.5258
+"539",120721,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"March","Tuesday","Cloudy","Dark - Not Lighted",27.3565,-82.4461
+"540",120785,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Other Object (Not Fixed)",1,0,1,1,0,0,0,2,2,"April","Sunday","Cloudy","Daylight",27.1002,-82.2709
+"541",120843,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","US-41","","Ditch",1,1,1,1,0,0,0,1,1,"April","Sunday","Clear","Dark - Lighted",27.1467,-82.4624
+"542",121066,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","SR-780","","Curb",1,0,5,5,0,0,0,6,6,"March","Tuesday","Clear","Daylight",27.3374,-82.5032
+"543",121111,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","ALLIGATOR DR","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"May","Sunday","Clear","Daylight",27.0546,-82.414
+"544",121114,"FLORIDA","Not Applicable","SARASOTA","Urban","Four-Way Intersection","US-41","TAYLOR RANCH TRAIL","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"June","Sunday","Clear","Daylight",27.0495,-82.3583
+"545",121139,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","US-41","","Tree (Standing Only)",1,0,1,1,0,0,0,1,1,"March","Thursday","Clear","Daylight",27.0471,-82.2898
+"546",121225,"FLORIDA","NORTH PORT","SARASOTA","Urban","Not an Intersection","SR-45","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"June","Tuesday","Clear","Dark - Not Lighted",27.0432,-82.2351
+"547",121230,"FLORIDA","NORTH PORT","SARASOTA","Rural","Not an Intersection","MERONI BLVD","","Working Motor Vehicle",1,0,2,1,1,0,1,1,2,"March","Monday","Clear","Daylight",27.093,-82.2449
+"548",121245,"FLORIDA","Not Applicable","SARASOTA","Rural","T-Intersection","SR-758","OAKHURST BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"June","Saturday","Cloudy","Dark - Lighted",27.2987,-82.4809
+"549",121336,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Guardrail Face",1,0,1,1,0,0,0,1,1,"June","Friday","Clear","Daylight",27.2681,-82.4487
+"550",121347,"FLORIDA","SARASOTA","SARASOTA","Rural","Not an Intersection","UNIVERSITY PKWY","","Tree (Standing Only)",3,1,1,1,0,0,0,4,4,"March","Monday","Clear","Dark - Not Lighted",27.3818,-82.5458
+"551",121465,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","SR-780","","Curb",1,0,1,1,0,0,0,1,1,"July","Saturday","Clear","Daylight",27.3383,-82.449
+"552",121472,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","SR-789A","","Other Fixed Object",1,1,1,1,0,0,0,1,1,"July","Sunday","Cloudy","Dark - Lighted",27.2879,-82.5612
+"553",121549,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","SR-776","","Pedestrian",1,0,1,1,0,1,1,1,1,"July","Friday","Rain","Dark - Lighted",26.9639,-82.353
+"554",121568,"FLORIDA","SARASOTA","SARASOTA","Urban","Roundabout","MAIN ST","ORANGE AVE","Curb",1,1,1,1,0,0,0,1,1,"June","Friday","Clear","Dark - Lighted",27.3364,-82.5386
+"555",121661,"FLORIDA","NORTH PORT","SARASOTA","Rural","Not an Intersection","TROPICAIRE BLVD","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"August","Monday","Rain","Daylight",27.114,-82.1967
+"556",121706,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","CR-773","","Pedestrian",1,0,1,1,0,1,1,2,2,"August","Tuesday","Rain","Daylight",27.2657,-82.4976
+"557",121838,"FLORIDA","Not Applicable","SARASOTA","Urban","Four-Way Intersection","US-41","CONSTITUTION BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Thursday","Cloudy","Daylight",27.2698,-82.5305
+"558",121916,"FLORIDA","NORTH PORT","SARASOTA","Rural","Not an Intersection","BISCAYNE DR","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Wednesday","Clear","Daylight",27.0778,-82.2464
+"559",121951,"FLORIDA","NORTH PORT","SARASOTA","Urban","Four-Way Intersection","US-41","SALFORD BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"February","Tuesday","Clear","Daylight",27.0341,-82.2081
+"560",122039,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Wednesday","Clear","Daylight",27.1115,-82.3374
+"561",122045,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","US-41","","Traffic Sign Support",1,0,1,1,0,0,0,1,1,"June","Sunday","Clear","Dark - Lighted",27.3285,-82.5398
+"562",122084,"FLORIDA","VENICE","SARASOTA","Urban","T-Intersection","PINEBROOK RD","WATER ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"February","Tuesday","Clear","Daylight",27.1156,-82.4171
+"563",122127,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"September","Friday","Clear","Dark - Lighted",27.0995,-82.21
+"564",122216,"FLORIDA","Not Applicable","SARASOTA","Urban","Four-Way Intersection","US-41","SEMINOLE DR","Pedestrian",1,0,1,1,0,1,1,2,2,"October","Monday","Clear","Daylight",27.062,-82.4163
+"565",122243,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","SR-758","","Working Motor Vehicle",1,1,2,1,1,0,1,1,2,"October","Monday","Clear","Dark - Lighted",27.2988,-82.5012
+"566",122348,"FLORIDA","Not Applicable","SARASOTA","Urban","Four-Way Intersection","US-41","ROBERTS RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"October","Saturday","Clear","Dark - Lighted",27.142,-82.4604
+"567",122365,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","INDIANA AVE","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"November","Sunday","Clear","Daylight",26.9632,-82.353
+"568",122397,"FLORIDA","SARASOTA","SARASOTA","Rural","Four-Way Intersection","SR-72","GATEWAY AVE","Curb",1,1,1,1,0,0,0,1,1,"November","Wednesday","Cloudy","Dark - Lighted",27.2654,-82.5178
+"569",122477,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","SR-72","HI-HAT RANCH BLVD","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"November","Friday","Clear","Dark - Not Lighted",27.2455,-82.3622
+"570",122494,"FLORIDA","Not Applicable","SARASOTA","Rural","Four-Way Intersection","US-41","CR-777","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"October","Friday","Clear","Daylight",27.0418,-82.2999
+"571",122530,"FLORIDA","Not Applicable","SARASOTA","Urban","T-Intersection","GULF GATE DR","MOBILE GATE DR","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Tuesday","Clear","Dusk",27.2589,-82.515
+"572",122600,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","I-75","","Tree (Standing Only)",1,1,1,1,0,0,0,3,3,"December","Tuesday","Cloudy","Dark - Not Lighted",27.2405,-82.4511
+"573",122603,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","SR-45","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"November","Thursday","Clear","Dark - Lighted",27.3378,-82.5467
+"574",122610,"FLORIDA","Not Applicable","SARASOTA","Trafficway Not in State Inventory","Not an Intersection","CLAXSTRAUSS DR","","Rollover/Overturn",1,1,1,1,0,0,0,4,4,"November","Saturday","Clear","Dark - Not Lighted",27.3354,-82.4308
+"575",122611,"FLORIDA","Not Applicable","SARASOTA","Urban","Not an Intersection","ALLIGATOR  RD","","Ditch",1,0,1,1,0,0,0,1,1,"November","Monday","Clear","Dark - Lighted",27.0543,-82.4139
+"576",122685,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","RICHARDSON RD","","Embankment",1,0,1,1,0,0,0,1,1,"December","Sunday","Cloudy","Dark - Not Lighted",27.3432,-82.4164
+"577",122697,"FLORIDA","Not Applicable","SARASOTA","Rural","Four-Way Intersection","SR-776","OVERBROOK RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"December","Saturday","Clear","Dark - Lighted",27.0001,-82.3766
+"578",122734,"FLORIDA","Not Applicable","SARASOTA","Rural","Four-Way Intersection","JACARANDA BLVD","SKLAR DR","Pedestrian",1,0,1,1,0,1,1,1,1,"December","Tuesday","Clear","Dark - Not Lighted",27.0653,-82.392
+"579",122763,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","US-301","","Tree (Standing Only)",1,0,1,1,0,0,0,2,2,"December","Sunday","Cloudy","Dark - Lighted",27.3733,-82.5308
+"580",122815,"FLORIDA","SARASOTA","SARASOTA","Urban","Four-Way Intersection","OLD BRADENTON RD","UNIVERSITY PKWY","Curb",1,1,1,1,0,0,0,3,3,"July","Friday","Clear","Dark - Lighted",27.3819,-82.5468
+"581",122822,"FLORIDA","Not Applicable","SARASOTA","Rural","Not an Intersection","SR-776","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"December","Thursday","Clear","Dark - Lighted",26.9717,-82.3532
+"582",122872,"FLORIDA","Not Applicable","SARASOTA","Rural","Four-Way Intersection","US-41","RUBENS DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"December","Wednesday","Clear","Dusk",27.1662,-82.476
+"583",123074,"FLORIDA","SARASOTA","SARASOTA","Urban","Not an Intersection","ASPINWALL ST","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Saturday","Clear","Dark - Lighted",27.3393,-82.5219
+"584",123075,"FLORIDA","SARASOTA","SARASOTA","Urban","Four-Way Intersection","BENEVA RD","CIRCUS BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"July","Thursday","Clear","Daylight",27.3412,-82.4973
+"585",120046,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"January","Sunday","Clear","Dark - Not Lighted",28.0272,-82.0555
+"586",120118,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","I-4","","Cable Barrier",1,0,1,1,0,0,0,2,2,"February","Tuesday","Rain","Dark - Not Lighted",28.1575,-81.8252
+"587",120126,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","I-4","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"February","Tuesday","Clear","Dark - Lighted",28.1516,-81.8561
+"588",120194,"FLORIDA","AUBURNDALE","POLK","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"January","Thursday","Clear","Dark - Lighted",28.0571,-81.8164
+"589",120283,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","US-27","","Other Post, Other Pole, or Other Support",1,1,1,1,0,0,0,1,1,"February","Monday","Clear","Dark - Not Lighted",28.0396,-81.6368
+"590",120284,"FLORIDA","Not Applicable","POLK","Urban","T-Intersection","SR-60","CR-655","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"February","Tuesday","Clear","Dark - Lighted",27.9163,-81.7263
+"591",120288,"FLORIDA","LAKELAND","POLK","Rural","T-Intersection","SR-546","SWINDELL RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"February","Tuesday","Fog, Smog, Smoke","Daylight",28.0549,-81.9985
+"592",120331,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-60","","Rollover/Overturn",1,0,1,1,0,0,0,2,2,"February","Saturday","Clear","Daylight",27.8412,-81.3548
+"593",120332,"FLORIDA","Not Applicable","POLK","Rural","Four-Way Intersection","LOGISTICS PARKWAY","OLD BARTOW LAKE WALES RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"February","Monday","Cloudy","Dark - Not Lighted",27.9235,-81.709
+"594",120333,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","COUNTY LINE ROAD","EWELL ROAD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"March","Saturday","Clear","Daylight",27.9528,-82.0553
+"595",120376,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","MCMANN ROAD","","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"March","Friday","Clear","Dark - Not Lighted",28.0959,-81.5225
+"596",120377,"FLORIDA","Not Applicable","POLK","Urban","T-Intersection","SR-655","MCKEAN ST","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"February","Friday","Clear","Daylight",28.0513,-81.7967
+"597",120389,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","SR-544","34TH ST NW","Utility Pole/Light Support",1,1,1,1,0,0,0,1,1,"March","Friday","Rain","Dark - Lighted",28.05,-81.7679
+"598",120394,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","KATHLEEN RD","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"February","Friday","Clear","Dusk",28.0961,-82.0003
+"599",120543,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","US-98","FOX LAKE DR","Pedalcyclist",1,0,2,2,0,1,1,3,3,"January","Friday","Clear","Dark - Not Lighted",28.1377,-81.9735
+"600",120587,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","US-92","LYNCHBURG RD","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"January","Monday","Clear","Dusk",28.0677,-81.7515
+"601",120588,"FLORIDA","Not Applicable","POLK","Trafficway Not in State Inventory","Not an Intersection","CAMP MACK RD","","Fence",1,1,1,1,0,0,0,1,1,"February","Monday","Clear","Daylight",27.9368,-81.4326
+"602",120589,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-60","","Ditch",1,0,1,1,0,0,0,1,1,"March","Monday","Clear","Daylight",27.904,-81.8462
+"603",120611,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","US-98","","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Tuesday","Clear","Dark - Lighted",28.0775,-81.9624
+"604",120655,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","US-92","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"March","Friday","Clear","Dark - Not Lighted",28.0482,-81.9222
+"605",120723,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","ERNIE CALDWELL BLVD","","Curb",1,1,1,1,0,0,0,1,1,"March","Sunday","Rain","Dark - Lighted",28.2233,-81.6422
+"606",120739,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","US-92","","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Friday","Clear","Dark - Lighted",28.055,-81.9481
+"607",120783,"FLORIDA","LAKE WALES","POLK","Urban","Not an Intersection","US-27","","Traffic Sign Support",1,0,1,1,0,0,0,1,1,"April","Friday","Clear","Dark - Not Lighted",27.8962,-81.5997
+"608",120848,"FLORIDA","LAKELAND","POLK","Urban","Four-Way Intersection","SR-37","HIGHLAND DR","Pedalcyclist",1,0,1,1,0,1,1,1,1,"April","Monday","Clear","Daylight",27.9857,-81.9567
+"609",120858,"FLORIDA","Not Applicable","POLK","Rural","Four-Way Intersection","CR-540","SUMMERLAND HILLS DR","Pedestrian",1,0,1,1,0,1,1,1,1,"May","Monday","Clear","Dark - Not Lighted",27.9675,-81.902
+"610",120861,"FLORIDA","LAKELAND","POLK","Rural","Not an Intersection","CARPENTERS WAY","","Ditch",1,1,1,1,0,0,0,1,1,"May","Sunday","Cloudy","Dark - Lighted",28.0947,-81.9616
+"611",120883,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","OLD DADE CITY RD","","Mail Box",1,1,1,1,0,0,0,2,2,"April","Saturday","Cloudy","Dark - Not Lighted",28.1897,-82.022
+"612",120887,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-60","","Rollover/Overturn",1,0,1,1,0,0,0,3,3,"April","Tuesday","Clear","Dark - Not Lighted",27.9104,-81.6838
+"613",120888,"FLORIDA","LAKELAND","POLK","Urban","T-Intersection","SR-33","I-4 RAMP","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"May","Friday","Clear","Dark - Lighted",28.1392,-81.9025
+"614",120911,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","US-98","","Motor Vehicle in Transport",1,1,3,3,0,0,0,4,4,"April","Saturday","Clear","Dark - Not Lighted",28.238,-82.0434
+"615",120945,"FLORIDA","WINTER HAVEN","POLK","Urban","T-Intersection","US-17","AVE I NW","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"January","Tuesday","Clear","Dark - Lighted",28.0306,-81.7329
+"616",120952,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","GALLOWAY RD","","Motor Vehicle in Transport",1,1,2,2,0,0,0,2,2,"March","Friday","Cloudy","Daylight",28.0421,-82.0183
+"617",121033,"FLORIDA","HAINES CITY","POLK","Urban","Not an Intersection","SR-25","","Motor Vehicle in Transport",2,0,4,4,0,0,0,10,10,"May","Monday","Clear","Daylight",28.1462,-81.6384
+"618",121098,"FLORIDA","WINTER HAVEN","POLK","Urban","Not an Intersection","SR-544","","Curb",1,0,1,1,0,0,0,1,1,"May","Saturday","Clear","Daylight",28.0463,-81.7483
+"619",121175,"FLORIDA","LAKELAND","POLK","Rural","Four-Way Intersection","LAKE MIRIAM DR","CLEVELAND HTS BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"March","Thursday","Clear","Daylight",27.9747,-81.9485
+"620",121209,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","US-92","COMBEE RD","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"May","Saturday","Rain","Dark - Lighted",28.0479,-81.9076
+"621",121215,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","I-4 / SR-400","","Ditch",1,1,1,1,0,0,0,1,1,"June","Friday","Rain","Dark - Lighted",28.07,-81.9903
+"622",121234,"FLORIDA","FROSTPROOF","POLK","Urban","Four-Way Intersection","US-27","CHARLES ST","Pedestrian",1,0,2,2,0,1,1,3,3,"June","Monday","Cloudy","Dark - Not Lighted",27.7117,-81.5607
+"623",121235,"FLORIDA","FORT MEADE","POLK","Rural","Not an Intersection","14TH ST","","Railway Vehicle",1,0,1,1,0,0,0,1,1,"June","Monday","Rain","Daylight",27.7686,-81.8061
+"624",121249,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,0,2,2,0,1,1,3,3,"May","Friday","Rain","Dark - Not Lighted",28.0576,-81.8134
+"625",121250,"FLORIDA","LAKELAND","POLK","Urban","T-Intersection","US-98","4600 US-98","Pedestrian",1,0,1,1,0,1,1,2,2,"June","Wednesday","Clear","Daylight",27.981,-81.8886
+"626",121263,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","US-27","LUCERNE PARK RD","Pedestrian",1,0,1,1,0,1,1,1,1,"March","Thursday","Clear","Daylight",28.0807,-81.6496
+"627",121337,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","I-4","","Motor Vehicle in Transport",4,0,7,7,0,0,0,11,11,"June","Tuesday","Clear","Daylight",28.1654,-81.7776
+"628",121349,"FLORIDA","HAINES CITY","POLK","Urban","Four-Way Intersection","SR-25","PATTERSON ROAD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Friday","Clear","Daylight",28.1431,-81.6373
+"629",121355,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","US-98","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"May","Friday","Clear","Daylight",27.748,-81.7524
+"630",121365,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","LAKE PATRICK RD","","Live Vehicle",1,0,1,1,0,0,0,1,1,"May","Monday","Fog, Smog, Smoke","Dark - Not Lighted",27.8196,-81.5146
+"631",121366,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","DUFF RD","","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"May","Sunday","Clear","Dusk",28.1356,-81.9978
+"632",121368,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","US-17","","Fence",1,0,1,1,0,0,0,1,1,"June","Tuesday","Clear","Daylight",27.6648,-81.823
+"633",121460,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","US-98","","Traffic Sign Support",3,1,2,2,0,0,0,4,4,"July","Saturday","Clear","Dark - Lighted",28.106,-81.9736
+"634",121461,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","LAKE MARION CREEK RD","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"July","Monday","Clear","Dark - Not Lighted",28.1179,-81.5443
+"635",121462,"FLORIDA","Not Applicable","POLK","Urban","T-Intersection","SR-60 W","ESPO DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"June","Wednesday","Clear","Dark - Lighted",27.9211,-82.0278
+"636",121463,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-33","","Rollover/Overturn",2,0,1,1,0,0,0,2,2,"June","Monday","Clear","Daylight",28.1797,-81.8471
+"637",121543,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","HIGHLAND DR E","","Rollover/Overturn",1,1,1,1,0,0,0,1,1,"March","Friday","Clear","Dark - Lighted",27.9857,-81.9489
+"638",121556,"FLORIDA","LAKELAND","POLK","Urban","T-Intersection","US-92","KETTLES AVE","Motor Vehicle in Transport",1,0,5,5,0,0,0,6,6,"July","Wednesday","Clear","Dark - Lighted",28.055,-81.9635
+"639",121596,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","COMMONWEALTH AVE","","Parked Motor Vehicle (Not in Transport)",1,0,2,1,1,0,0,2,2,"July","Thursday","Clear","Dark - Not Lighted",28.3403,-81.8298
+"640",121600,"FLORIDA","WINTER HAVEN","POLK","Urban","Four-Way Intersection","SR-544","US-17","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"July","Monday","Clear","Daylight",28.044,-81.7352
+"641",121614,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","ROCKRIDGE RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,6,6,"July","Saturday","Clear","Daylight",28.2127,-81.9835
+"642",121654,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",2,0,2,2,0,0,0,5,5,"August","Sunday","Rain","Daylight",28.0549,-81.967
+"643",121663,"FLORIDA","LAKE WALES","POLK","Urban","Not an Intersection","SR-17","","Motor Vehicle in Transport",1,0,3,3,0,0,0,4,4,"July","Sunday","Clear","Daylight",27.9176,-81.5924
+"644",121695,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","SR-33","MT OLIVE RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"June","Thursday","Clear","Daylight",28.1614,-81.8583
+"645",121723,"FLORIDA","Not Applicable","POLK","Trafficway Not in State Inventory","Not an Intersection","CAMP MACK RD","","Rollover/Overturn",1,1,1,1,0,0,0,2,2,"August","Saturday","Clear","Dark - Not Lighted",27.9347,-81.4355
+"646",121759,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","WALT WILLIAMS RD","WALT LOOP RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Monday","Clear","Daylight",28.1247,-81.9383
+"647",121764,"FLORIDA","Not Applicable","POLK","Rural","Four-Way Intersection","US-27","US-98","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"August","Monday","Cloudy","Dark - Lighted",28.3469,-81.6735
+"648",121780,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","I-4","","Rollover/Overturn",1,1,1,1,0,0,0,3,3,"August","Saturday","Cloudy","Dark - Not Lighted",28.097,-81.952
+"649",121800,"FLORIDA","LAKE WALES","POLK","Urban","Not an Intersection","SR-60","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Monday","Clear","Daylight",27.8939,-81.5739
+"650",121840,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,0,2,2,0,0,0,4,4,"August","Tuesday","Rain","Dark - Lighted",28.04,-82
+"651",121846,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","THORNHILL RD","","Rollover/Overturn",2,1,1,1,0,0,0,6,6,"August","Sunday","Cloudy","Dark - Not Lighted",28.0246,-81.8149
+"652",121870,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-17A","","Pedalcyclist",1,0,1,1,0,1,1,1,1,"August","Thursday","Clear","Dark - Not Lighted",27.9602,-81.5973
+"653",121874,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-33","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"July","Saturday","Clear","Daylight",28.1491,-81.8844
+"654",121898,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","BARFIELD RD","","Pedestrian",1,0,1,1,0,1,1,1,1,"August","Monday","Clear","Daylight",28.179,-81.8141
+"655",121904,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-540","","Motor Vehicle in Transport",1,1,2,2,0,0,0,3,3,"March","Tuesday","Clear","Dark - Lighted",28.0102,-81.8258
+"656",121908,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","SR-37","","Curb",1,1,2,1,1,0,0,2,2,"February","Saturday","Clear","Dark - Lighted",27.9086,-81.9738
+"657",121909,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","SR-60 W","CORONET RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"February","Sunday","Clear","Daylight",27.9274,-82.0386
+"658",121927,"FLORIDA","BARTOW","POLK","Urban","Not an Intersection","US-98 N","","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"January","Thursday","Clear","Daylight",27.8705,-81.8286
+"659",121955,"FLORIDA","HAINES CITY","POLK","Urban","T-Intersection","BATES RD","VILLA SORRENTO BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,9,9,"May","Friday","Clear","Daylight",28.1359,-81.6285
+"660",121959,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","K VILLE AVE","","Tree (Standing Only)",1,1,1,1,0,0,0,2,2,"May","Tuesday","Clear","Dark - Not Lighted",28.0337,-81.8259
+"661",121995,"FLORIDA","MULBERRY","POLK","Urban","Four-Way Intersection","SR-60","DR M L KING JR AVE","Pedestrian",1,0,1,1,0,1,1,1,1,"April","Sunday","Clear","Dark - Lighted",27.8948,-81.9908
+"662",122020,"FLORIDA","Not Applicable","POLK","Rural","Four-Way Intersection","US-27","POLO PARK BLVD","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"September","Sunday","Clear","Daylight",28.3375,-81.6718
+"663",122055,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","COUNTY LINE RD","EWELL RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Thursday","Clear","Daylight",27.9529,-82.0553
+"664",122104,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","SR-659","TANGLEWOOD ST","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"September","Friday","Clear","Daylight",28.0601,-81.908
+"665",122136,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-37","FOUR CORNERS MINE RD","Motor Vehicle in Transport",2,0,4,4,0,0,0,7,7,"August","Tuesday","Cloudy","Daylight",27.7018,-82.0219
+"666",122223,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","BERKLEY RD","OLD DIXIE HWY","Motor Vehicle in Transport",1,0,3,3,0,0,0,3,3,"October","Thursday","Rain","Dusk",28.0734,-81.8175
+"667",122230,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","SR-60 E","80 FOOT RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"October","Tuesday","Cloudy","Dark - Not Lighted",27.9094,-81.7742
+"668",122238,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-640","","Tree (Standing Only)",1,1,1,1,0,0,0,1,1,"September","Thursday","Clear","Dark - Not Lighted",27.8205,-81.8462
+"669",122259,"FLORIDA","AUBURNDALE","POLK","Urban","Not an Intersection","CR-557A","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"October","Friday","Clear","Dark - Not Lighted",28.1683,-81.8065
+"670",122298,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-98","","Rollover/Overturn",1,0,1,1,0,0,0,1,1,"September","Tuesday","Clear","Dark - Lighted",28.1377,-81.9735
+"671",122357,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","I-4","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"October","Sunday","Clear","Dark - Not Lighted",28.2573,-81.6163
+"672",122557,"FLORIDA","BARTOW","POLK","Urban","Four-Way Intersection","US-17","ERNEST SMITH BLVD","Motor Vehicle in Transport",2,0,2,2,0,0,0,4,4,"November","Saturday","Clear","Daylight",27.9239,-81.8217
+"673",122559,"FLORIDA","LAKE WALES","POLK","Urban","Not an Intersection","CENTRAL AVE","","Rollover/Overturn",1,0,2,2,0,0,0,2,2,"November","Thursday","Clear","Daylight",27.9021,-81.6044
+"674",122621,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-580","","Utility Pole/Light Support",1,1,1,1,0,0,0,1,1,"September","Tuesday","Clear","Dark - Not Lighted",28.1383,-81.5118
+"675",122631,"FLORIDA","LAKELAND","POLK","Urban","T-Intersection","DRANE FIELD RD","AIR PARK DR","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Sunday","Cloudy","Daylight",27.9966,-82.0269
+"676",122662,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","SR-37","CR-630","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Tuesday","Clear","Daylight",27.7431,-81.9974
+"677",122698,"FLORIDA","AUBURNDALE","POLK","Urban","Four-Way Intersection","US-92","DAIRY RD","Motor Vehicle in Transport",2,0,2,2,0,0,0,3,3,"December","Wednesday","Clear","Daylight",28.0611,-81.7762
+"678",122699,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","US-27","","Culvert",1,0,1,1,0,0,0,2,2,"September","Saturday","Clear","Dark - Not Lighted",27.7226,-81.5648
+"679",122706,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","US-17","CARROLL DRIVE","Pedestrian",1,0,1,1,0,1,1,2,2,"November","Tuesday","Clear","Dark - Lighted",28.0584,-81.7327
+"680",122742,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-60","","Pedestrian",1,0,1,1,0,2,2,1,1,"October","Saturday","Clear","Dark - Not Lighted",27.8262,-81.3392
+"681",122783,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","CR-557","I-4","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Saturday","Clear","Daylight",28.1821,-81.7439
+"682",122794,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","LAKE PARKER DR","","Pedestrian",1,0,1,1,0,1,1,2,2,"November","Sunday","Clear","Dark - Not Lighted",28.0736,-81.917
+"683",122804,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","ALTURAS BABSON PARK RD","SNELL RD","Motor Vehicle in Transport",1,0,2,2,0,0,0,5,5,"December","Thursday","Fog, Smog, Smoke","Dark - Not Lighted",27.8572,-81.7439
+"684",122816,"FLORIDA","Not Applicable","POLK","Rural","T-Intersection","BROADWAY ST","LAKEWOOD CT","Pedestrian",1,1,1,1,0,1,1,1,1,"December","Sunday","Clear","Dark - Not Lighted",28.0552,-81.912
+"685",122826,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SR-570","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"December","Tuesday","Clear","Dusk",27.9944,-81.9482
+"686",122837,"FLORIDA","Not Applicable","POLK","Rural","Four-Way Intersection","US-27 N","RITCHIE RD","Motor Vehicle in Transport",2,0,2,2,0,0,0,3,3,"November","Friday","Clear","Daylight",28.2391,-81.6537
+"687",122885,"FLORIDA","BARTOW","POLK","Urban","Not an Intersection","SR-700","","Curb",1,0,2,1,1,0,0,2,2,"September","Friday","Clear","Daylight",27.8932,-81.8285
+"688",122900,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","SR-37","SCOTTSDALE LOOP","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"November","Thursday","Clear","Dark - Lighted",28.0068,-81.9569
+"689",122910,"FLORIDA","LAKELAND","POLK","Urban","Four-Way Intersection","US-98","SR-548","Pedalcyclist",1,0,1,1,0,1,1,1,1,"August","Friday","Clear","Daylight",28.0495,-81.9573
+"690",123035,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","US-92","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"November","Tuesday","Clear","Daylight",28.0602,-81.7992
+"691",123036,"FLORIDA","Not Applicable","POLK","Urban","T-Intersection","US-27","PRINCETON AVE","Motor Vehicle in Transport",2,0,2,2,0,0,0,5,5,"October","Friday","Clear","Dark - Lighted",27.6913,-81.5634
+"692",123037,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","SADDLEWOOD BLVD","1130 SADDLEWOOD BLVD","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Thursday","Clear","Daylight",28.2369,-81.9721
+"693",123049,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-540","","Curb",1,1,1,1,0,0,0,1,1,"September","Sunday","Clear","Dark - Not Lighted",28.0038,-81.7716
+"694",123051,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","HUNT BROS RD","","Pedestrian",1,0,1,1,0,1,1,2,2,"September","Sunday","Clear","Dark - Not Lighted",27.8828,-81.5559
+"695",123052,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-54","","Curb",1,0,1,1,0,0,0,1,1,"August","Thursday","Clear","Dark - Lighted",28.2555,-81.651
+"696",123064,"FLORIDA","LAKELAND","POLK","Urban","Not an Intersection","MARTHA AVE","","Pedalcyclist",1,0,1,1,0,1,1,2,2,"December","Sunday","Clear","Daylight",28.0797,-81.9517
+"697",123065,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","PROVIDENCE BLVD","","Curb",1,0,1,1,0,0,0,1,1,"May","Monday","Clear","Dark - Lighted",28.2196,-81.5527
+"698",123067,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","ORANGE VALLEY DR","","Building",1,1,1,1,0,1,1,1,1,"October","Thursday","Cloudy","Dark - Lighted",27.9668,-81.953
+"699",123069,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","DUFF RD","","Pedestrian",1,0,1,1,0,1,1,1,1,"October","Thursday","Cloudy","Dark - Not Lighted",28.135,-82.0216
+"700",123070,"FLORIDA","Not Applicable","POLK","Urban","Not an Intersection","DEEN STILL RD","","Motor Vehicle in Transport",1,0,2,2,0,0,0,2,2,"May","Tuesday","Clear","Daylight",28.2584,-81.8288
+"701",123071,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-630","","Motor Vehicle in Transport",1,0,2,2,0,0,0,3,3,"October","Wednesday","Clear","Daylight",27.748,-81.875
+"702",123081,"FLORIDA","Not Applicable","POLK","Urban","Roundabout","COMMONWEALTH AVE N","DEEN STILL RD E","Curb",1,0,1,1,0,0,0,1,1,"November","Saturday","Clear","Dark - Lighted",28.2584,-81.8246
+"703",123083,"FLORIDA","Not Applicable","POLK","Urban","Four-Way Intersection","US-27 N","1ST AVE N","Motor Vehicle in Transport",1,0,3,3,0,0,0,5,5,"November","Tuesday","Clear","Daylight",27.8334,-81.5896
+"704",123086,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-580","","Motor Vehicle in Transport",3,0,2,2,0,0,0,10,10,"February","Saturday","Rain","Dark - Not Lighted",28.1426,-81.4848
+"705",123119,"FLORIDA","Not Applicable","POLK","Rural","Not an Intersection","CR-33","","Other Object (Not Fixed)",1,0,1,1,0,0,0,1,1,"December","Sunday","Clear","Daylight",28.18,-81.8308
