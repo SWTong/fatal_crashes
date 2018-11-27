@@ -47,11 +47,11 @@ tbay_map
 ###The Problem
 Lots of accidents happen all over the country. According to [ABC Action News](https://www.abcactionnews.com/news/state/florida-has-the-worst-drivers-in-the-nation-ranked-1-two-years-in-a-row), Florida has been reported by personal-finance company SmartAsset to be #1 in the years 2016 and 2017 for having the most unsafe drivers in the country.  
 
-A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month, day of week, and location, particularly in the Tampa Bay Area.
+A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month and location, particularly in the Tampa Bay Area.
 
 
 ###The Data
-The data I will be using will come from one of the csv files named `accidents.csv` that contains data about __fatal__ accidents (accidents where at least one death occurred) that occurred in all U.S. states in 2016. The csv file can be obtained from within a zipped folder from the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). After downloading the file, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original accidents data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server to store the data and organized the data into a data warehouse to prepare for analysis. 
+The data I will be using will come from  the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). In particular, I will be using one of the csv files named `accidents.csv` that contains data about __fatal__ accidents (accidents where at least one death occurred) that occurred in all U.S. states in 2016. The csv file can be located within the csv zip folder from the mentioned link. After downloading the file, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original accidents data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server to store the data and organized the data into a data warehouse to prepare for analysis. 
 
 The resulting clean data set that R will be analyzing is [this](tbay_acc.csv).
 
