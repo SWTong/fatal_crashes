@@ -45,8 +45,9 @@ tbay_map
 ```
 
 ###The Problem
-Lots of accidents happen all over the country. According to %
-Florida is ranked % in the year % in terms of the number of accidents that occurred. A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month, day of week, and location, particularly in the Tampa Bay Area.
+Lots of accidents happen all over the country. According to [ABC Action News](https://www.abcactionnews.com/news/state/florida-has-the-worst-drivers-in-the-nation-ranked-1-two-years-in-a-row), Florida has been reported by personal-finance company SmartAsset to be #1 in the years 2016 and 2017 for having the most unsafe drivers in the country.  
+
+A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month, day of week, and location, particularly in the Tampa Bay Area.
 
 
 ###The Data
