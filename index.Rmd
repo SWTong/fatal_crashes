@@ -158,7 +158,7 @@ addMarkers(data = hb, lng = ~ LONGITUD, lat = ~ LATITUDE,
 hb_map
 ```
 
-From the map of Hillsborough County, we can see that Tampa had the highest number of fatal accidents, leading with about 57 accidents. Within Tampa,  I-275 was the location where most fatal accidents occurred.
+From the map of Hillsborough County, we can see that Tampa had the highest number of fatal accidents, leading with about 57 accidents.
 
 __Question: What months had the highest number of fatal accident in the Tampa Bay Area in 2016?__
 
