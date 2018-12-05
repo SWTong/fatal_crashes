@@ -17,7 +17,6 @@ setwd("C:\\Users\\Sharon\\Desktop\\fatal_crashes")
 
 #read the tbay csv file
 tbay_acc <- read.csv("tbay_acc.csv")
-hb <- filter(tbay_acc, tbay_acc$COUNTY_NAME == "HILLSBOROUGH")
 ```
 
 ``` {r map_label, include = FALSE}
@@ -79,7 +78,7 @@ Let's take a look at the structure of the data set by running the R code below. 
 str(tbay_acc)
 ```
 
-__Question: How many fatal accidents occurred in each county in the Tampa Bay Area? Is there a difference in the number of accidents between rural and urban areas?__
+__Question: How many fatal accidents occurred in each county in the Tampa Bay Area in 2016? Is there a difference in the number of accidents between rural and urban areas?__
 
 To answer this question, we can create a bar chart based on our data that includes the county name, rural and urban area types, and the frequency of each accident.
 
@@ -133,12 +132,38 @@ From the bar chart, we can see that Hillsborough County had the highest number o
 
 Note: this chart does not include areas that are not rural or urban even though non-rural and non-urban data is available within the tbay_acc.csv file.
 
-__Question: Where do most fatal accidents occur in Hillsborough County?__
+__Question: Where do most fatal accidents occur in the Tampa Bay Area in 2016?__
+
+To answer this question, we can create a data table that contains only the trafficway identifiers and count up each unique group of trafficway identifiers and then order them by the group with the highest count. To make the table easier to understand, we can rename the columns.
+
+Note: Trafficway 2 was recorded by officers to accommodate intersection and intersection-related crashes.
+
+```{r trafficway_count}
+library("dplyr")
+library("DT")
+
+trafficway <- select(tbay_acc,TWAY_ID, TWAY_ID2)
+
+trafficway <- trafficway %>% group_by(TWAY_ID, TWAY_ID2) %>% summarise(n = n()) %>% 
+  ungroup() %>% arrange(desc(n))
+
+trafficway <- rename(trafficway, "Trafficway 1" = "TWAY_ID", "Trafficway 2" = "TWAY_ID2", "Count" = "n")
+
+tpreview <- trafficway[1:50,]
+ttable <- datatable(tpreview)
+ttable
+```
+
+From the table, we can see that I-75 had the highest number of fatal accidents, leading with 33 accidents, followed by US-19 with 27 accidents, and US-41 with 24 accidents.
+
+__Question: Where do most fatal accidents occur in Hillsborough County in 2016?__
 
 To answer this question, we can create a map based on rows from our tbay_acc.csv where the county name is 
 Hillsborough and apply a cluster accidents that are within a short distance from each other to make the map more readable.
 
 ```{r hb_map_code}
+hb <- filter(tbay_acc, tbay_acc$COUNTY_NAME == "HILLSBOROUGH")
+
 popupInfo2 <- paste("<b>Month: </b>", hb$MONTH_NAME,
                  "<br>", "<b> Day of Week: </b>", hb$DAY_WEEK_NAME,
                  "<br>", "<b> Trafficway1: </b>", hb$TWAY_ID,
@@ -162,7 +187,7 @@ hb_map
 
 From the map of Hillsborough County, we can see that Tampa had the highest number of fatal accidents, leading with about 57 accidents.
 
-__Question: What months had the highest number of fatal accident in the Tampa Bay Area in 2016?__
+__Question: What months had the highest number of fatal accidents in the Tampa Bay Area in 2016?__
 
 To answer this question, we can create another bar chart based on our data that includes the month and the frequency of each accident.
 
