@@ -48,7 +48,7 @@ Lots of accidents happen all over the country. According to [ABC Action News](ht
 
 A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month and location, particularly in the Tampa Bay Area.
 
-Note: when referring to the Tampa Bay Area, we will be referring to the following counties within the area: Hillsborough, Pinellas, Pasco, Hernando, Sarasota, Citrus, Manatee, and Polk.
+Note: when referring to the Tampa Bay Area, we will be referring to the following counties: Hillsborough, Pinellas, Pasco, Hernando, Sarasota, Citrus, Manatee, and Polk.
 
 
 ###The Data
