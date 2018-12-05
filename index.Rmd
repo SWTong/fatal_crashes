@@ -52,7 +52,11 @@ Note: when referring to the Tampa Bay Area, we will be referring to the followin
 
 
 ###The Data
-The data I will be using will come from  the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). In particular, I will be using one of the csv files named `accidents.csv` that contains data about __fatal__ accidents (accidents where at least one death occurred) that occurred in all U.S. states in 2016. The csv file can be located within the csv zip folder from the mentioned link. After downloading the file, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original accidents data set. I Extracted, Transformed, and Loaded the data into Microsoft SQL Server to store the data and organized the data into a data warehouse to prepare for analysis. 
+The data I will be using will come from  the U.S. Fatality Analysis Reporting System (FARS) [here](ftp://ftp.nhtsa.dot.gov/fars/2016/National/). In particular, I will be using one of the csv files named `accidents.csv` that contains data about __fatal__ accidents (accidents where at least one death occurred) that occurred in all U.S. states in 2016. The csv file can be located within the csv zip folder from the mentioned link. 
+
+After downloading `accidents.csv`, I obtained additional data from the U.S. Geographic Locator Codes site [here](https://www.gsa.gov/reference/geographic-locator-codes/glcs-for-the-us-and-us-territories) to decode some of the geographic codes in the original accidents data set.
+
+I then Extracted, Transformed, and Loaded the data into Microsoft SQL Server to store the data and organized the data into a data warehouse to prepare for analysis. 
 
 The resulting clean data set that R will be analyzing is [this](tbay_acc.csv).
 
