@@ -62,23 +62,22 @@ The resulting clean data set that R will be analyzing is [this](tbay_acc.csv).
 
 Here is a preview of the data set:
 
-```{r table}
+```{r table, echo = FALSE}
 #Preview first 50 rows of the data set, list 10 entries per page
 library(DT)
 
 preview <- tbay_acc[1:50,]
 table <- datatable(preview, options = list(pageLength = 10,scrollX='400px'))
-```
-```{r, echo=FALSE}
+
 table
 ```
 
 ###Descriptive Statistics
 
-Let's take a look at the structure of the data set by running the R code below. The result shows that there are 705 observations (rows) and 25 variables (columns). On the left-hand side, R displays a list of all the columns and on the right-hand side, their data types and examples of some of their values. "Int" represents integer data, "Factor" represents qualitative data, and "num" represents non-integer data.
+Let's take a look at the structure of the data set by running some R code. The result shows that there are 705 observations (rows) and 25 variables (columns). On the left-hand side, R displays a list of all the columns and on the right-hand side, their data types and examples of some of their values. "Int" represents integer data, "Factor" represents qualitative data, and "num" represents non-integer data.
 
 
-```{r tpabay}
+```{r tpabay, message = FALSE, echo = FALSE}
 str(tbay_acc)
 ```
 
@@ -117,7 +116,7 @@ ctyrururb <- left_join(ctyrur, ctyurb, by=c("County"))
 
 ```
 
-```{r rururb_barchart, message = FALSE}
+```{r rururb_barchart, message = FALSE, echo = FALSE}
 
 #plot a bar chart using the Plotly library for merged rural and urban data set created from tbay_acc.csv
 library("plotly")
@@ -142,7 +141,7 @@ To answer this question, we can create a data table that contains only the traff
 
 Note: Trafficway 2 was recorded by officers to accommodate intersection and intersection-related crashes.
 
-```{r trafficway_count}
+```{r trafficway_count, echo = FALSE}
 library("dplyr")
 library("DT")
 
@@ -165,7 +164,7 @@ __Question: Where do most fatal accidents occur in Hillsborough County in 2016?_
 To answer this question, we can create a map based on rows from our tbay_acc.csv where the county name is 
 Hillsborough and apply a cluster for accidents that are within a short distance from each other to make the map more readable.
 
-```{r hb_map_code}
+```{r hb_map_code, echo = FALSE}
 hb <- filter(tbay_acc, tbay_acc$COUNTY_NAME == "HILLSBOROUGH")
 
 popupInfo2 <- paste("<b>Month: </b>", hb$MONTH_NAME,
@@ -182,10 +181,6 @@ addTiles() %>%
 addMarkers(data = hb, lng = ~ LONGITUD, lat = ~ LATITUDE, 
                   popup = popupInfo2,
                    clusterOptions = markerClusterOptions())
-```
-
-```{r, echo=FALSE}
-
 hb_map
 ```
 
@@ -195,7 +190,7 @@ __Question: What months had the highest number of fatal accidents in the Tampa B
 
 To answer this question, we can create another bar chart based on our data that includes the month and the frequency of each accident.
 
-```{r, month_bar}
+```{r, month_bar, echo = FALSE}
 #create a data set with month and number of accidents from the tbay_acc csv file, 
 #rename the month data set columns, and 
 #plot the month data set using the Plotly library
@@ -206,7 +201,7 @@ months_set <- rename(months_set, "Month" = "tbay_acc.MONTH_NAME", "AccCount" = "
 month_plot <- plot_ly(months_set, x = ~months_set$Month, y = ~months_set$AccCount, type = 'bar') %>%
   layout(title="Tampa Bay Fatal Accidents by Month in 2016",
        xaxis = list(title = "Month", tickangle = -45),
-         yaxis = list(title = "Number of Accidents")
+         yaxis = list(title  = "Number of Accidents")
        )
 month_plot
 ```
