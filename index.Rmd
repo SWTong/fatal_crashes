@@ -60,7 +60,7 @@ I then Extracted, Transformed, and Loaded the data into Microsoft SQL Server to 
 
 Diagram of the data warehouse:
 
-![](accidentDiagram)
+![](accidentDiagram.PNG)
 
 The resulting clean data set that R will be analyzing is [this](tbay_acc.csv).
 
