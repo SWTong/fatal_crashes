@@ -58,6 +58,10 @@ After downloading `accidents.csv`, I obtained additional data from the U.S. Geog
 
 I then Extracted, Transformed, and Loaded the data into Microsoft SQL Server to store the data and organized the data into a data warehouse to prepare for analysis. 
 
+Diagram of the data warehouse:
+
+![](accidentDiagram)
+
 The resulting clean data set that R will be analyzing is [this](tbay_acc.csv).
 
 Here is a preview of the data set:
