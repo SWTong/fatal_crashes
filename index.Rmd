@@ -48,7 +48,7 @@ Lots of accidents happen all over the country. According to [ABC Action News](ht
 
 A lot of research has been done on the demographics of accidents already, such as age and gender, so I will be mainly focusing on the characteristics of the accidents themselves such as month and location, particularly in the Tampa Bay Area.
 
-Note: when referring to the Tampa Bay Area, we will be referring to the following counties: Hillsborough, Pinellas, Pasco, Hernando, Sarasota, Citrus, Manatee, and Polk.
+_Note: when referring to the Tampa Bay Area, we will be referring to the following counties: Hillsborough, Pinellas, Pasco, Hernando, Sarasota, Citrus, Manatee, and Polk._
 
 
 ###The Data
@@ -137,13 +137,13 @@ rururb_bar
 
 From the bar chart, we can see that Hillsborough County had the highest number of fatal crashes in 2016 compared to other Tampa Bay counties. There appears to be more fatal accidents occurring in urban areas compared to rural areas. 
 
-Note: this chart does not include areas that are not rural or urban even though non-rural and non-urban data is available within the tbay_acc.csv file.
+_Note: this chart does not include areas that are not rural or urban even though non-rural and non-urban data is available within the tbay_acc.csv file._
 
 __Question: Where do most fatal accidents occur in the Tampa Bay Area in 2016?__
 
 To answer this question, we can create a data table that contains only the trafficway identifiers and count up each unique group of trafficway identifiers and then order them by the group with the highest count. To make the table easier to understand, we can rename the columns.
 
-Note: Trafficway 2 was recorded by officers to accommodate intersection and intersection-related crashes.
+_Note: Trafficway 2 was recorded by officers to accommodate intersection and intersection-related crashes._
 
 ```{r trafficway_count, echo = FALSE}
 library("dplyr")
